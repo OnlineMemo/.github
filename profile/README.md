@@ -4,8 +4,17 @@
 <br>
 
 <p align="center">
-  <strong> - 온라인 메모장 - <br> 공동 작성이 가능한 간편한 온라인 메모장입니다.<br> </strong>
+  <strong>
+    - 온라인 메모장 -
+    <br>
+    공동 작성이 가능한 간편한 온라인 메모장입니다.
+  </strong>
 </p>
+<br>
+
+## 🖱️ Access
+- Website link: <a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
+- Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
 <br>
 
 ## 📹 Demo
