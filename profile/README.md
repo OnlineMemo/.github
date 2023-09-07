@@ -50,156 +50,232 @@
 ![image](https://user-images.githubusercontent.com/70987007/183114204-c5d0f50f-79e8-420a-aa42-4d0c34d14b36.png)
 <br>
 
-## 🚀 How to Start
-### 1. Clone Repository
-
-```
-https://github.com/2022-Summer-Bootcamp-teamG/puppy-classification.git
-```
-
-### 2. Install Pacakages
-
-```
-$ cd pupppy-classification-frontend
-$ yarn run build
-```
-
-### 3. Set .env file
-
-```bash
-### settings/.env
-# === Database ===
-RDS_HOST =
-RDS_DATABASE =
-RDS_USER =
-RDS_PASSWORD =
-
-# === S3Bucket ===
-S3_ID =
-S3_SECRET_KEY =
-S3_BUCKET_REGION =
-S3_BUCKET_NAME =
-
-```
-
-### 4. Run Docker
-
-```
-$ docker-compose up --build         # build images and run containers
-$ docker-compose down               # stop running containers
-$ docker-compose down -v            # stop running containers and delete its volume
-```
-
 ## 📂 Frontend_Web Directory Structure
-
 ```bash
 ├── README.md
-├── docker-compose.prod.yml
-├── docker-compose.yml
-├── nginx
-│   ├── Dockerfile
-│   └── nginx.conf
-├── puppy-classification-backend
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── app.py
-│   ├── config
-│   │   ├── __init__.py
-│   │   ├── connection.py
-│   │   ├── rdsConfig.py
-│   │   └── s3Config.py
-│   ├── imagenet_class_index.json
-│   ├── predict.py
-│   ├── requirements.txt
-│   ├── tasks.py
-│   ├── views.py
-│   ├── weights.pt
-│   └── wsgi.py
-├── puppy-classification-frontend
-│   ├── Dockerfile
-│   ├── Dockerfile.prod
-│   ├── README.md
-│   ├── build
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public
-│   ├── src
-│   │   ├── App.css
-│   │   ├── App.tsx
-│   │   ├── assets
-│   │   │   ├── fonts
-│   │   │   └── images
-│   │   ├── components
-│   │   │   ├── common
-│   │   │   │   ├── Button.ts
-│   │   │   │   ├── Common.ts
-│   │   │   │   ├── CustomAxios.ts
-│   │   │   │   ├── Header.tsx
-│   │   │   │   ├── Loading.tsx
-│   │   │   │   ├── Logo.ts
-│   │   │   │   ├── MediaQuery.ts
-│   │   │   │   ├── NotFound.tsx
-│   │   │   │   ├── SearchBar.tsx
-│   │   │   │   ├── SearchBarStyle.ts
-│   │   │   │   └── Title.ts
-│   │   │   ├── detail
-│   │   │   │   ├── ChartBox.tsx
-│   │   │   │   ├── DetailImage.ts
-│   │   │   │   ├── FeatureBox.tsx
-│   │   │   │   └── ItemBox.ts
-│   │   │   ├── list
-│   │   │   │   ├── CardItem.tsx
-│   │   │   │   ├── CardList.tsx
-│   │   │   │   ├── Categories.tsx
-│   │   │   │   ├── ItemImage.ts
-│   │   │   │   ├── Pagination.tsx
-│   │   │   │   └── pagination.module.scss
-│   │   │   ├── main
-│   │   │   │   ├── Dropzone.ts
-│   │   │   │   ├── ImageUploader.tsx
-│   │   │   │   ├── LabelButton.ts
-│   │   │   │   ├── MainImage.ts
-│   │   │   │   └── PuppyButton.tsx
-│   │   │   ├── result
-│   │   │   │   ├── Carousel.tsx
-│   │   │   │   ├── CarouselBox.tsx
-│   │   │   │   └── ResultImage.ts
-│   │   │   └── search
-│   │   │       └── SearchCardList.tsx
-│   │   ├── custom.d.ts
-│   │   ├── global.d.ts
-│   │   ├── index.css
-│   │   ├── index.tsx
-│   │   ├── logo.svg
-│   │   ├── pages
-│   │   │   ├── DetailPage.tsx
-│   │   │   ├── ListPage.tsx
-│   │   │   ├── MainPage.tsx
-│   │   │   ├── ResultPage.tsx
-│   │   │   └── SearchPage.tsx
-│   │   ├── setupTests.ts
-│   ├── tsconfig.json
-│   ├── yarn-error.log
-│   └── yarn.lock
-├── settings
-    └── .env
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── memoicon128.png
+│   ├── memoicon192.png
+│   ├── memoicon512.png
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── assets
+    │   ├── fonts
+    │   │   ├── BMJUA_ttf.ttf
+    │   │   ├── Kalam-Bold.ttf
+    │   │   ├── Kalam-Light.ttf
+    │   │   └── Kalam-Regular.ttf
+    │   └── images
+    │       └── user.png
+    ├── components
+    │   ├── List
+    │   │   ├── FriendList.jsx
+    │   │   ├── InviteFriendList.jsx
+    │   │   ├── MemoList.jsx
+    │   │   ├── MemoListItem.jsx
+    │   │   ├── SelectFriendList.jsx
+    │   │   └── SenderList.jsx
+    │   ├── Modal
+    │   │   ├── ConfirmModal.jsx
+    │   │   ├── FriendGroupModal.jsx
+    │   │   └── SendFriendshipModal.jsx
+    │   ├── Navigation
+    │   │   ├── LoadingNav.jsx
+    │   │   ├── NewMemoNav.jsx
+    │   │   ├── NoLoginNav.jsx
+    │   │   ├── ReadAndEditMemoNav.jsx
+    │   │   └── YesLoginNav.jsx
+    │   ├── Styled
+    │   │   ├── BasicWrapper.jsx
+    │   │   ├── HelloWrapper.jsx
+    │   │   ├── NavWrapper.jsx
+    │   │   └── OneMemoWrapper.jsx
+    │   └── UI
+    │       ├── Checkbox.jsx
+    │       ├── DropdownCenter.jsx
+    │       ├── DropdownLeft.jsx
+    │       ├── DropdownRight.jsx
+    │       ├── FriendOptionDropdownCenter.jsx
+    │       ├── IsStarButton.jsx
+    │       ├── MemoOptionButton.jsx
+    │       ├── MemoOptionDropdownRight.jsx
+    │       ├── NewMemoOptionDropdownRight.jsx
+    │       ├── SearchMemo.jsx
+    │       └── SortMemo.jsx
+    ├── hooks
+    │   └── useDetectDropdown.jsx
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── pages
+    │   ├── Etc
+    │   │   ├── DownloadPage.jsx
+    │   │   ├── InformationPage.jsx
+    │   │   └── NoticePage.jsx
+    │   ├── Friend
+    │   │   ├── FriendListPage.jsx
+    │   │   └── SenderListPage.jsx
+    │   ├── Memo
+    │   │   ├── MemoListPage.jsx
+    │   │   ├── NewMemoPage.jsx
+    │   │   └── ReadAndEditMemoPage.jsx
+    │   └── User
+    │       ├── ChangePwPage.jsx
+    │       ├── LoginPage.jsx
+    │       ├── SignupPage.jsx
+    │       └── UserProfilePage.jsx
+    ├── reportWebVitals.js
+    ├── setupTests.js
+    └── utils
+        ├── CheckToken.js
+        └── lazyUtil.js
 ```
 
 ## 📂 Frontend_App Directory Structure
-
 ```bash
-
+├── App.js
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── icon.png
+│   └── splash.png
+├── babel.config.js
+├── eas.json
+├── package-lock.json
+└── package.json
 ```
 
 ## 📂 Backend Directory Structure
-
 ```bash
-
+└── src
+    ├── main
+    │   ├── generated
+    │   ├── java
+    │   │   └── com
+    │   │       └── shj
+    │   │           └── onlinememospringproject
+    │   │               ├── OnlinememoSpringProjectApplication.java
+    │   │               ├── config
+    │   │               │   ├── JwtSecurityConfig.java
+    │   │               │   └── WebSecurityConfig.java
+    │   │               ├── controller
+    │   │               │   ├── AuthController.java
+    │   │               │   ├── FriendshipController.java
+    │   │               │   ├── MemoController.java
+    │   │               │   ├── TestController.java
+    │   │               │   └── UserController.java
+    │   │               ├── domain
+    │   │               │   ├── DefaultFriendshipEntity.java
+    │   │               │   ├── DefaultMemoEntity.java
+    │   │               │   ├── friendship
+    │   │               │   │   ├── Friendship.java
+    │   │               │   │   └── FriendshipJpaRepository.java
+    │   │               │   ├── memo
+    │   │               │   │   ├── Memo.java
+    │   │               │   │   └── MemoJpaRepository.java
+    │   │               │   ├── user
+    │   │               │   │   ├── Authority.java
+    │   │               │   │   ├── User.java
+    │   │               │   │   └── UserJpaRepository.java
+    │   │               │   └── userandmemo
+    │   │               │       ├── UserAndMemo.java
+    │   │               │       └── UserAndMemoJpaRepository.java
+    │   │               ├── dto
+    │   │               │   ├── friendship
+    │   │               │   │   ├── FriendshipRequestDto.java
+    │   │               │   │   ├── FriendshipResponseDto.java
+    │   │               │   │   ├── FriendshipSendRequestDto.java
+    │   │               │   │   ├── FriendshipSendResponseDto.java
+    │   │               │   │   └── FriendshipUpdateRequestDto.java
+    │   │               │   ├── memo
+    │   │               │   │   ├── MemoInviteResponseDto.java
+    │   │               │   │   ├── MemoResponseDto.java
+    │   │               │   │   ├── MemoSaveRequestDto.java
+    │   │               │   │   ├── MemoSaveResponseDto.java
+    │   │               │   │   ├── MemoUpdateRequestDto.java
+    │   │               │   │   └── MemoUpdateStarRequestDto.java
+    │   │               │   ├── token
+    │   │               │   │   └── TokenDto.java
+    │   │               │   ├── user
+    │   │               │   │   ├── UserIdResponseDto.java
+    │   │               │   │   ├── UserLoginRequestDto.java
+    │   │               │   │   ├── UserRequestDto.java
+    │   │               │   │   ├── UserRequestDtos.java
+    │   │               │   │   ├── UserResponseDto.java
+    │   │               │   │   ├── UserSignupRequestDto.java
+    │   │               │   │   ├── UserUpdateNameRequestDto.java
+    │   │               │   │   └── UserUpdatePwRequestDto.java
+    │   │               │   └── userandmemo
+    │   │               │       ├── UserAndMemoRequestDto.java
+    │   │               │       └── UserAndMemoResponseDto.java
+    │   │               ├── jwt
+    │   │               │   ├── JwtAccessDeniedHandler.java
+    │   │               │   ├── JwtAuthenticationEntryPoint.java
+    │   │               │   ├── JwtFilter.java
+    │   │               │   └── TokenProvider.java
+    │   │               ├── response
+    │   │               │   ├── GlobalExceptionHandler.java
+    │   │               │   ├── ResponseCode.java
+    │   │               │   ├── ResponseData.java
+    │   │               │   ├── exception
+    │   │               │   │   ├── FriendshipBadRequestException.java
+    │   │               │   │   ├── FriendshipDuplicateException.java
+    │   │               │   │   ├── LoginIdDuplicateException.java
+    │   │               │   │   ├── MemoSortBadRequestException.java
+    │   │               │   │   ├── NoSuchFriendshipException.java
+    │   │               │   │   ├── NoSuchMemoException.java
+    │   │               │   │   ├── NoSuchUserException.java
+    │   │               │   │   └── UserAndMemoDuplicateException.java
+    │   │               │   └── responseitem
+    │   │               │       ├── MessageItem.java
+    │   │               │       └── StatusItem.java
+    │   │               ├── service
+    │   │               │   ├── FriendshipService.java
+    │   │               │   ├── MemoService.java
+    │   │               │   ├── UserAndMemoService.java
+    │   │               │   ├── UserService.java
+    │   │               │   ├── auth
+    │   │               │   │   ├── AuthService.java
+    │   │               │   │   └── CustomUserDetailsService.java
+    │   │               │   └── logic
+    │   │               │       ├── FriendshipServiceLogic.java
+    │   │               │       ├── MemoServiceLogic.java
+    │   │               │       ├── UserAndMemoServiceLogic.java
+    │   │               │       └── UserServiceLogic.java
+    │   │               └── util
+    │   │                   └── SecurityUtil.java
+    │   └── resources
+    │       ├── application-jwt.properties
+    │       ├── application-mysql.properties
+    │       ├── application.properties
+    │       ├── logback-spring.xml
+    │       ├── static
+    │       └── templates
+    └── test
+        └── java
+            └── com
+                └── shj
+                    └── onlinememospringproject
+                        ├── OnlinememoSpringProjectApplicationTests.java
+                        └── service
+                            ├── MemoServiceTest.java
+                            ├── UserAndMemoServiceTest.java
+                            └── UserServiceTest.java
 ```
+<br>
 
 ## 👨‍👩‍👧‍👧 팀원
 
-|                                              [최지미](https://github.com/rabbit-22)                                              |                                                [김혜린](https://github.com/Kim-Hye-Lin)                                                |                                               [박희경](https://github.com/qkrgmlrud00)                                                |                                                                      [장현우](https://github.com/aswooo)                                                                      | [하도균](https://github.com/DoKyunHa) |
-| :------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------: |
-| <img width = "520" src ="https://user-images.githubusercontent.com/70987007/183122411-d68ed57b-8daa-4af6-8230-294cabc3b095.png"> | <img width="520" alt="ff" src="https://user-images.githubusercontent.com/70987007/183121730-dc503644-3458-4bb5-9524-78b07d7137d2.png"> | <img width="520" alt="1" src="https://user-images.githubusercontent.com/70987007/183119590-b366716b-ed52-4fcb-a774-f942718eaa15.png"> | <img width="520" alt="스크린샷 2022-08-06 오전 1 24 51" src="https://user-images.githubusercontent.com/70987007/183120176-4ea0488f-fc28-46a7-9e28-a1ded6bc1d3d.png"> |                 <img width="420" src="https://user-images.githubusercontent.com/70987007/183126855-faff052d-574c-499b-917b-a04109019c77.png">                  |
-|                                                   Leader, Front-end Developer                                                    |                                                      Front-end Developer, DevOps                                                       |                                                          Back-end Developer                                                           |                                                                             AI, Backend-Developer                                                                             |          Front-end Developer          |
+|                                              [사현진](https://github.com/tkguswls1106)                                              |
+| :------------------------------------------------------------------------------------------------------------------------------: |
+| <img width = "300" src ="https://github.com/OnlineMemo/.github/assets/56509933/a13439f7-934d-41e1-be52-190e40753707"> |
+|                                                   Frontend & Backend Developer                                                    |
