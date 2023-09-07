@@ -17,10 +17,10 @@
   
 ### 모바일 버전
 <div align="center">
-  <img width="245" alt="플레이스토어 스크린샷 1" src="https://github.com/OnlineMemo/.github/assets/56509933/7d6859e4-5521-40e2-a904-9d400a11f2ae">
-  <img width="245" alt="플레이스토어 스크린샷 2" src="https://github.com/OnlineMemo/.github/assets/56509933/e1792b69-225f-426e-a954-d9412ca02d96">
-  <img width="245" alt="플레이스토어 스크린샷 3" src="https://github.com/OnlineMemo/.github/assets/56509933/7777a7da-3d0a-428b-8cb7-1fdaf88ebb22">
-  <img width="245" alt="플레이스토어 스크린샷 4" src="https://github.com/OnlineMemo/.github/assets/56509933/f031bf2e-61ac-4343-9c83-8065c0960b84">
+  <img width="240" alt="플레이스토어 스크린샷 1" src="https://github.com/OnlineMemo/.github/assets/56509933/7d6859e4-5521-40e2-a904-9d400a11f2ae">
+  <img width="240" alt="플레이스토어 스크린샷 2" src="https://github.com/OnlineMemo/.github/assets/56509933/e1792b69-225f-426e-a954-d9412ca02d96">
+  <img width="240" alt="플레이스토어 스크린샷 3" src="https://github.com/OnlineMemo/.github/assets/56509933/7777a7da-3d0a-428b-8cb7-1fdaf88ebb22">
+  <img width="240" alt="플레이스토어 스크린샷 4" src="https://github.com/OnlineMemo/.github/assets/56509933/f031bf2e-61ac-4343-9c83-8065c0960b84">
 </div>
 <br>
 
