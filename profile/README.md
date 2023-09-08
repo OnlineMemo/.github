@@ -1,18 +1,17 @@
 <p align="center">
   <img width="240" alt="온라인메모장 앱아이콘" src="https://github.com/OnlineMemo/.github/assets/56509933/e8b687ce-8a21-46f9-aa6b-b62a930a2c58">
 </p>
-<br>
 
 <p align="center">
   <strong>
-    - 온라인 메모장 -
+    - 온라인 메모장 📝 -
     <br>
     공동 작성이 가능한 간편한 온라인 메모장입니다.
   </strong>
 </p>
 <br>
 
-## 🖱️ Access
+## 📲 Access
 - Website link: <a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
 - Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
 <br>
@@ -33,7 +32,7 @@
 </div>
 <br>
 
-## 💡Tech Stack
+## 💡 Tech Stack
 |Frontend|Backend|Security|Other|
 |:------:|:------:|:------:|:------:|
 |<img src="https://img.shields.io/badge/React.js-61DBFB?style=flat-square&logo=React&logoColor=white"/></a><br><img src="https://img.shields.io/badge/React Native-008FC7?style=flat-square&logo=React Native&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a><br><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Security-00A98F?style=flat-square&logo=Spring Security&logoColor=white"/></a><br><img src="https://img.shields.io/badge/JSON Web Token-9933CC?style=flat-square&logo=JSON Web Tokens&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Github-111011?style=flat-square&logo=Github&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/></a><br><img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/></a>
@@ -53,13 +52,14 @@
 
 ## 💻 Architecture
 ![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
-<br>
+<br><br>
 
 ## 📗 API
 ![image](https://user-images.githubusercontent.com/70987007/183114204-c5d0f50f-79e8-420a-aa42-4d0c34d14b36.png)
-<br>
+<br><br>
 
-## 📂 Frontend_Web Directory Structure
+## 📂 Directory Structure
+### Frontend_Web
 ```bash
 ├── README.md
 ├── package-lock.json
@@ -148,7 +148,7 @@
         └── lazyUtil.js
 ```
 
-## 📂 Frontend_App Directory Structure
+### Frontend_App
 ```bash
 ├── App.js
 ├── app.json
@@ -163,7 +163,7 @@
 └── package.json
 ```
 
-## 📂 Backend Directory Structure
+### Backend
 ```bash
 └── src
     ├── main
