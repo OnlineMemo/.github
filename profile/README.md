@@ -33,6 +33,7 @@
 - Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
 <div align="center">
   <img width="1470" alt="플레이스토어 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/ab015384-804a-4bf8-9ac6-4e238623cf13">
+  <img width="1470" alt="플레이스토어 PC 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/b8d9ebd0-8afe-48a5-ab2a-7d8ea99f7065">
 </div>
 <br>
 
