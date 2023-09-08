@@ -11,12 +11,35 @@
 </p>
 <br>
 
-## 📲 Access
+
+
+## 🔍 Introduction
+
+### 주제 선정
+기존의 메모장들에는 잡다한 많은 기능들이 탑재되어있어 사용에 어려움을 느꼈습니다. <br>
+이에 본연의 기능을 살리고 남녀노소 누구나 쉽게 이용 가능한 메모장을 만들어보자는 생각에 아이디어를 얻었습니다.
+
+### 특징
+- 불필요한 기능을 제거하고, 간편하고 직관적인 디자인으로 주요 기능의 접근성을 높였습니다. <br>
+또한 눈이 편안한 색감을 선정하여 귀엽고 심플하게 디자인하였습니다.
+- 개인정보 필요없이 생성할 id와 pw만 입력하여, 쉽고 빠르게 회원가입이 가능합니다. <br>
+이로써 회원가입의 거부감을 줄이고, 어느 기기에서든지 접속하여 계정별로 메모를 관리할 수 있습니다.
+- 여러 사람이 공동으로 메모를 작성 및 관리할 수 있는 '공동 메모' 기능을 추가하였습니다. <br>
+대학생 팀플이나 회의 내용 작성으로도 적합합니다.
+- 광고 삽입은 접근성을 떨어뜨리기에, 수익창출 없이 무료로 이용 가능하도록 하였습니다.
+
+### 접속
 - Website link: <a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
 - Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
+<div align="center">
+  <img width="1470" alt="플레이스토어 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/ab015384-804a-4bf8-9ac6-4e238623cf13">
+</div>
 <br>
 
+
+
 ## 📹 Demo
+
 ### PC 버전
   <img width="1470" alt="PC 버전 스크린샷" src="https://github.com/OnlineMemo/.github/assets/56509933/6c713000-e868-4420-af65-69daa292d91e">
 
@@ -32,13 +55,21 @@
 </div>
 <br>
 
+
+
+## 💻 Architecture
+![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
+<br><br>
+
+
+
 ## 💡 Tech Stack
 |Frontend|Backend|Security|Other|
 |:------:|:------:|:------:|:------:|
-|<img src="https://img.shields.io/badge/React.js-61DBFB?style=flat-square&logo=React&logoColor=white"/></a><br><img src="https://img.shields.io/badge/React Native-008FC7?style=flat-square&logo=React Native&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a><br><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Security-00A98F?style=flat-square&logo=Spring Security&logoColor=white"/></a><br><img src="https://img.shields.io/badge/JSON Web Token-9933CC?style=flat-square&logo=JSON Web Tokens&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Github-111011?style=flat-square&logo=Github&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/></a><br><img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/></a>
+|<img src="https://img.shields.io/badge/React-61DBFB?style=flat-square&logo=React&logoColor=white"/></a><br><img src="https://img.shields.io/badge/React Native-008FC7?style=flat-square&logo=React Native&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Javascript-F7DF1F?style=flat-square&logo=Javascript&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/></a><br><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Spring Security-00A98F?style=flat-square&logo=Spring Security&logoColor=white"/></a><br><img src="https://img.shields.io/badge/JSON Web Token-9933CC?style=flat-square&logo=JSON Web Tokens&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Github-111011?style=flat-square&logo=Github&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/></a><br><img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/></a>
 
 ```
-- Frontend : React.js, React Native
+- Frontend : React, React Native, Javascript
 - Backend : Spring Boot, Java
 - Database: MySQL
 - Frontend Deployment: AWS Amplify
@@ -48,17 +79,23 @@
 - Version control: Github
 - Development Environment : Visual studio code, IntelliJ IDEA
 ```
-<br>
 
-## 💻 Architecture
-![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
+
+
+## 🗂️ Database
+<img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c">
 <br><br>
+
+
 
 ## 📗 API
 ![image](https://user-images.githubusercontent.com/70987007/183114204-c5d0f50f-79e8-420a-aa42-4d0c34d14b36.png)
 <br><br>
 
+
+
 ## 📂 Directory Structure
+
 ### Frontend_Web
 ```bash
 ├── README.md
@@ -282,7 +319,9 @@
 ```
 <br>
 
-## 👨‍👩‍👧‍👧 팀원
+
+
+## 👨‍👩‍👧‍👧 Team (Full Stack)
 
 |                                              [사현진](https://github.com/tkguswls1106)                                              |
 | :------------------------------------------------------------------------------------------------------------------------------: |
