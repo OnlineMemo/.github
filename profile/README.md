@@ -68,7 +68,7 @@
 **User profile**|**Notice**|**App guide**
 -----|-----|-----
 <img src="https://github.com/OnlineMemo/.github/assets/56509933/d28b8bb5-55fe-4fcf-8225-5ad557a945e3" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/5fc7b037-2e48-4e0c-b0ce-29d89787cd50" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/419c769b-71bc-46c1-af13-f4ea16d2f93a" width="100%">
-회원정보를 조회합니다.|공지사항 페이지 입니다.|앱 다운로드 안내 페이지 입니다.
+회원정보를 조회합니다.|공지사항 페이지 입니다.|모바일앱 다운로드 안내 페이지 입니다.
 
 <br>
 
