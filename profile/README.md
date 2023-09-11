@@ -107,7 +107,7 @@
 
 
 ## 📗 API
-![image](https://user-images.githubusercontent.com/70987007/183114204-c5d0f50f-79e8-420a-aa42-4d0c34d14b36.png)
+Swagger 이미지 넣어야함.
 <br><br>
 
 
