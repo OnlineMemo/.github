@@ -112,6 +112,12 @@
 
 
 
+## 🛠️ Log (AWS CloudWatch)
+<img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544">
+<br><br>
+
+
+
 ## 📂 Directory Structure
 
 ### Frontend_Web
