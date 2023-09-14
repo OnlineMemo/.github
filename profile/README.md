@@ -236,6 +236,7 @@
     │   │               ├── OnlinememoSpringProjectApplication.java
     │   │               ├── config
     │   │               │   ├── JwtSecurityConfig.java
+    │   │               │   ├── SwaggerConfig.java
     │   │               │   └── WebSecurityConfig.java
     │   │               ├── controller
     │   │               │   ├── AuthController.java
