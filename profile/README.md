@@ -122,7 +122,6 @@
 
 ### Frontend_Web
 ```bash
-├── README.md
 ├── package-lock.json
 ├── package.json
 ├── public
