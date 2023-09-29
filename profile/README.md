@@ -87,7 +87,7 @@
 
 ```
 - Frontend : React, React Native, JavaScript
-- Backend : Spring Boot, Java
+- Backend : Spring Boot, Java, Spring Security, JSON Web Token
 - Database: MySQL
 - Frontend Deployment: AWS Amplify
 - Backend Deployment: AWS Elastic Beanstalk
