@@ -79,7 +79,7 @@
 ![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
 
 ```
-Operational Architecture
+< Operational Architecture >
 - Frontend Deployment : AWS Amplify
 - Backend Deployment : AWS Elastic Beanstalk
 - Database : AWS RDS
