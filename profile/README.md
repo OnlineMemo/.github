@@ -29,6 +29,7 @@
 - 광고 삽입은 접근성을 떨어뜨리기에, 수익창출 없이 무료로 이용 가능하도록 하였습니다.
 
 ### 접속
+- Operation:&nbsp;&nbsp;2023/09/03 ~ ing
 - Website link: <a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
 - Android app: <a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Play Store Download</a>
 <div align="center">
@@ -78,6 +79,7 @@
 ![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
 
 ```
+Operational Architecture
 - Frontend Deployment : AWS Amplify
 - Backend Deployment : AWS Elastic Beanstalk
 - Database : AWS RDS
@@ -98,8 +100,8 @@
 ```
 - Frontend : React, React Native, JavaScript
 - Backend : Spring Boot, Java, Spring Security, JSON Web Token
-- Database: MySQL
-- Deployment: Amazon AWS
+- Database : MySQL
+- Deployment : Amazon AWS
 - API Tool : Postman
 - API Documentation : Swagger
 ```
