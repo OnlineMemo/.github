@@ -75,6 +75,26 @@
 
 
 
+## 👨‍👩‍👦‍👦 Demo
+
+### 마케팅
+
+**에브리타임**|**인스타그램**
+-----|-----
+<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/11fabfbd-227a-430b-a048-3c95b6f06e53" width="100%">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/420dea2c-82bf-491f-b753-847b957747eb" width="100%">
+대학생 커뮤니티에 홍보글을 게시하여, HOT 게시물로 선정되었습니다.|SNS에 홍보글을 게시하여, 다양한 연령대의 접근성을 고려했습니다.
+
+### 테스팅
+
+**테스터**|**트래픽**
+-----|-----
+<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" width="100%">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/aab70515-13c7-4c29-b483-0c5ab673c2b5" width="100%">
+웹과 앱 분야에 모두 테스터를 모집하여, 특정 시간대 10분 동안의 동시접속 트래픽 변화를 측정하였습니다.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7%->6%까지 올랐음을 확인했습니다. 이로써 최대 500명의 동시접속 시 CPU 사용률이 100%에 도달할 것임을 알 수 있었고, 인스턴스를 확장함으로써 예방 조치를 취할 수 있었습니다.
+
+<br>
+
+
+
 ## 💻 Architecture
 ![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
 
@@ -84,7 +104,7 @@
 - Backend Deployment : AWS Elastic Beanstalk
 - Database : AWS RDS
 - DNS : AWS Route53
-- Traffic : AWS Application Load Balancer, EC2 Auto Scaling (CPUUtil / 30% Scale Down, 70% Scale Up)
+- Traffic : AWS Application Load Balancer, EC2 Auto Scaling (CPUUtil 30% ~ 70%)
 - Monitoring : AWS CloudWatch, Spring Logback, ExceptionHandler
 - Version control : AWS S3, Github
 ```
