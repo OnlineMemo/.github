@@ -1,14 +1,29 @@
-<p align="center">
-  <img width="240" alt="온라인메모장 앱아이콘" src="https://github.com/OnlineMemo/.github/assets/56509933/e8b687ce-8a21-46f9-aa6b-b62a930a2c58">
-</p>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dd0f3082-61fb-44ed-8518-e6cef8754361" width="230" />
+  <h3 align="center">온라인 메모장 📝</h3>
+  <p align="center">
+    공동 작성이 가능한 메모장 서비스<br>
+    <a href="https://github.com/orgs/OnlineMemo/repositories"><strong>FullStack Repo »</strong></a><br>
+    <a href="https://github.com/OnlineMemo/backend"><strong>Refactor Ver.2 »</strong></a>
+  </p>
+</div>
+<br>
 
-<p align="center">
-  <strong>
-    - 온라인 메모장 📝 -
-    <br>
-    공동 작성이 가능한 메모장 서비스입니다.
-  </strong>
-</p>
+<details open>
+  <summary><strong>&nbsp;📖&nbsp;목차</strong></summary>
+
+1. &nbsp;&nbsp;[🔍 Introduction](#-introduction)
+2. &nbsp;&nbsp;[📹 Demo](#-demo)
+3. &nbsp;&nbsp;[👨‍👩‍👦‍👦 Launch](#-launch)
+4. &nbsp;&nbsp;[💻 Architecture](#-architecture)
+5. &nbsp;&nbsp;[💡 Tech Stack](#-tech-stack)
+6. &nbsp;&nbsp;[🗂️ Database](#%EF%B8%8F-database)
+7. &nbsp;&nbsp;[📗 API](#-api)
+8. &nbsp;&nbsp;[🛠️ Log](#%EF%B8%8F-log-aws-cloudwatch)
+9. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
+10. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team)
+</details>
 <br>
 
 
@@ -149,8 +164,11 @@
 
 ## 📂 Directory Structure
 
-### Frontend_Web
-```bash
+<details>
+  <summary>&nbsp;<strong>Frontend_Web</strong>&nbsp;:&nbsp;&nbsp;Open!</summary>
+  <br>
+
+```
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -235,10 +253,15 @@
     └── utils
         ├── CheckToken.js
         └── lazyUtil.js
-```
 
-### Frontend_App
-```bash
+```
+</details>
+
+<details>
+  <summary>&nbsp;<strong>Frontend_App</strong>&nbsp;:&nbsp;&nbsp;Open!</summary>
+  <br>
+
+```
 ├── App.js
 ├── app.json
 ├── assets
@@ -251,9 +274,13 @@
 ├── package-lock.json
 └── package.json
 ```
+</details>
 
-### Backend
-```bash
+<details>
+  <summary>&nbsp;<strong>Backend</strong>&nbsp;:&nbsp;&nbsp;Open!</summary>
+  <br>
+
+```
 └── src
     ├── main
     │   ├── generated
@@ -370,6 +397,7 @@
                             ├── UserAndMemoServiceTest.java
                             └── UserServiceTest.java
 ```
+</details>
 <br>
 
 
