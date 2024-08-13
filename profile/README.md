@@ -96,7 +96,7 @@
 
 **테스터**|**트래픽**
 -----|-----
-<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" width="100%">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/deb45a45-6828-4107-be56-d011fe89d558" width="100%">
+<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" height="40%">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/deb45a45-6828-4107-be56-d011fe89d558" width="100%">
 웹과 앱 분야에 모두 테스터를 모집하여, 특정 시간대 10분 동안의 동시접속 트래픽 변화를 측정하였습니다.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7%->6%까지 올랐음을 확인했습니다. 이로써 최대 500명의 동시접속 시 CPU 사용률이 100%에 도달할 것임을 알 수 있었고, 인스턴스를 확장함으로써 예방 조치를 취할 수 있었습니다.
 
 ### 마케팅
