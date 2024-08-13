@@ -22,7 +22,7 @@
 7. &nbsp;&nbsp;[📗 API](#-api)
 8. &nbsp;&nbsp;[🛠️ Log](#%EF%B8%8F-log-aws-cloudwatch)
 9. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
-10. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team)
+10. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
 </details>
 <br>
 
