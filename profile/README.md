@@ -5,7 +5,7 @@
   <p align="center">
     공동 작성이 가능한 메모장 서비스<br>
     <a href="https://github.com/orgs/OnlineMemo/repositories?q=sort%3Aname-asc"><strong>FullStack Repo »</strong></a><br>
-    <a href="https://github.com/OnlineMemo/backend"><strong>Refactor Ver.2 »</strong></a>
+    <a href="https://github.com/OnlineMemo/backend/tree/refactor/onlinememo-v2"><strong>Refactor Ver.2 »</strong></a>
   </p>
 </div>
 <br>
