@@ -248,7 +248,6 @@
   <br>
 
 ```
-├── package.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
@@ -267,7 +266,7 @@
     │   └── images
     │       └── user.png
     ├── apis
-    │   ├── Api.jsx
+    │   └── Api.jsx
     ├── components
     │   ├── List
     │   │   ├── FriendList.jsx
@@ -303,8 +302,6 @@
     │       ├── NewMemoOptionDropdownRight.jsx
     │       ├── SearchMemo.jsx
     │       └── SortMemo.jsx
-    ├── hooks
-    │   └── useDetectDropdown.jsx
     ├── pages
     │   ├── Etc
     │   │   ├── DownloadPage.jsx
@@ -322,18 +319,11 @@
     │       ├── LoginPage.jsx
     │       ├── SignupPage.jsx
     │       └── UserProfilePage.jsx
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
-    ├── reportWebVitals.js
-    ├── setupTests.js
+    ├── hooks
+    │   └── useDetectDropdown.jsx
     └── utils
         ├── CheckToken.js
         └── lazyUtil.js
-
 ```
 </details>
 
