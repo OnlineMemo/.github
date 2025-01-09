@@ -362,5 +362,5 @@
 
 |                                              [사현진](https://github.com/tkguswls1106)                                              |
 | :------------------------------------------------------------------------------------------------------------------------------: |
-| <img width = "300" src ="https://github.com/OnlineMemo/.github/assets/56509933/a13439f7-934d-41e1-be52-190e40753707"> |
+| <img width = "300" src ="https://github.com/user-attachments/assets/cb71ee9c-c8e6-45ca-9fb8-4e9d96d0a5d5"> |
 |                                                   Frontend & Backend Developer                                                    |
