@@ -248,20 +248,16 @@
   <br>
 
 ```
-├── package-lock.json
 ├── package.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
+│   ├── linkthumbnail.png
 │   ├── manifest.json
 │   ├── memoicon128.png
 │   ├── memoicon192.png
-│   ├── memoicon512.png
-│   └── robots.txt
+│   └── memoicon512.png
 └── src
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
     ├── assets
     │   ├── fonts
     │   │   ├── BMJUA_ttf.ttf
@@ -270,6 +266,8 @@
     │   │   └── Kalam-Regular.ttf
     │   └── images
     │       └── user.png
+    ├── apis
+    │   ├── Api.jsx
     ├── components
     │   ├── List
     │   │   ├── FriendList.jsx
@@ -307,9 +305,6 @@
     │       └── SortMemo.jsx
     ├── hooks
     │   └── useDetectDropdown.jsx
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
     ├── pages
     │   ├── Etc
     │   │   ├── DownloadPage.jsx
@@ -327,6 +322,12 @@
     │       ├── LoginPage.jsx
     │       ├── SignupPage.jsx
     │       └── UserProfilePage.jsx
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
     ├── reportWebVitals.js
     ├── setupTests.js
     └── utils
