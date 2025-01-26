@@ -159,7 +159,8 @@
 
 
 ## 🛠️ Log (AWS CloudWatch)
-<img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544">
+<!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> -->
+<img width="1470" alt="AWS CloudWatch" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7">
 <br><br>
 
 
