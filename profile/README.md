@@ -119,7 +119,7 @@
 - Backend Deployment : AWS Elastic Beanstalk
 - Database : AWS RDS
 - DNS : AWS Route53
-- Traffic : AWS Application Load Balancer, EC2 Auto Scaling (CPUUtil 30% ~ 70%)
+- Traffic : AWS Application Load Balancer, Auto Scaling (CPU 70% Out, 30% In)
 - Monitoring : AWS CloudWatch, Spring Logback, ExceptionHandler
 - Version control : AWS S3, Github
 ```
