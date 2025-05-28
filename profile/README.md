@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/dd0f3082-61fb-44ed-8518-e6cef8754361" width="210" />
+  <img src="https://github.com/user-attachments/assets/dd0f3082-61fb-44ed-8518-e6cef8754361" width="197" />
   <h3 align="center">온라인 메모장 📝</h3>
   <p align="center">
     공동 작성이 가능한 메모장 서비스<br>
@@ -47,8 +47,8 @@
 ## 📄 Documents
 
 - <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ ing
-  - [Web]&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
-  - [App]&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
+  - Web&nbsp;:&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
+  - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
 
 - #### [BE] API 명세서
   - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/4b60a166-ff46-4a0e-a14e-20bb2722273b" /></details> 
