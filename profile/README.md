@@ -72,7 +72,7 @@
 
 ### PC Page
 
-**메모 목록 조회**|**메모 내용 조회**|**신규 공동메모 작성**
+**메모 목록 조회**|**메모 내용 조회**|**친구 공동메모 초대**
 -----|-----|-----
 <img src="https://github.com/OnlineMemo/.github/assets/56509933/d662b9b9-4c55-4fbb-8199-b5e6dd222f0e" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/35c09de5-7f59-4e06-ab74-d9bcd6f0647e" width="100%">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/2096b659-80ca-4f77-b6b7-7f4c760357e0" width="100%">
 
