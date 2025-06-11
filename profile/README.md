@@ -51,7 +51,7 @@
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
 
 - #### [BE] API 명세서
-  - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/4b60a166-ff46-4a0e-a14e-20bb2722273b" /></details> 
+  - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/4b60a166-ff46-4a0e-a14e-20bb2722273b" width="70%" /></details> 
 
 - #### [BE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend">Backend 대규모 리팩토링</a>
@@ -156,10 +156,10 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 <img width="1470" alt="AWS CloudWatch" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7">
 
 ```
-1. Spring ExceptionHandler : Catch Error
-2. Spring Logback: Logging
+1. Spring ExceptionHandler : Error Handling
+2. Spring Logback : Logging
 3-1. [Prod] AWS CloudWatch : Monitoring
-3-2. [Local] Save to file
+3-2. [Local] File Storage : Save to file
 ```
 
 <br>
