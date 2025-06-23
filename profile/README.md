@@ -54,8 +54,9 @@
   - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/4b60a166-ff46-4a0e-a14e-20bb2722273b" width="70%" /></details> 
 
 - #### [BE] 성능 개선기 📝
-  - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend">Backend 대규모 리팩토링</a>
+  - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend">Backend 대규모 리팩토링 - DB 재설계 · 쿼리 튜닝 · API 다중호출 개선</a>
   - [블로그]&nbsp;&nbsp;<a href="https://velog.io/@tkguswls1106/JPA-Auditing-%EC%B6%94%EC%A0%81-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0-LastModifiedDate-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%A9%EC%A7%80">Auditing 추적 벗어나기 (@LastModifiedDate 업데이트 방지)</a>
+  - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/5">동시성 제어 - Redis Lettuce 분산 락 · MySQL 낙관적 락 · @Transactional 전파 속성</a>
 
 - #### [FE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/frontend-web">Frontend 대규모 리팩토링</a>
