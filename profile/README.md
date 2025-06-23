@@ -176,6 +176,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ```
 :
 ├── config
+│   ├── RedisConfig.java
 │   ├── SecurityConfig.java
 │   └── SwaggerConfig.java
 ├── controller
@@ -213,6 +214,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── FriendshipRepository.java
 │   ├── MemoBatchRepository.java
 │   ├── MemoRepository.java
+│   ├── RedisRepository.java
 │   ├── UserMemoBatchRepository.java
 │   ├── UserMemoRepository.java
 │   └── UserRepository.java
@@ -224,6 +226,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   │   ├── CustomException.java
 │   │   ├── Exception400.java
 │   │   ├── Exception404.java
+│   │   ├── Exception409.java
+│   │   ├── Exception423.java
 │   │   └── Exception500.java
 │   └── responseitem
 │       ├── MessageItem.java
@@ -231,12 +235,14 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ├── service
 │   ├── AuthService.java
 │   ├── FriendshipService.java
+│   ├── MemoFacade.java
 │   ├── MemoService.java
 │   ├── UserMemoService.java
 │   ├── UserService.java
 │   └── impl
 │       ├── AuthServiceImpl.java
 │       ├── FriendshipServiceImpl.java
+│       ├── MemoFacadeImpl.java
 │       ├── MemoServiceImpl.java
 │       ├── UserMemoServiceImpl.java
 │       └── UserServiceImpl.java
