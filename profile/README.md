@@ -124,7 +124,8 @@
 
 ## 🗂️ Database
 <!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c"> -->
-<img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d">
+<!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d"> -->
+<img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/dd03f5d3-1e92-4431-b274-972fbbcc1e8c">
 
 <br><br>
 
