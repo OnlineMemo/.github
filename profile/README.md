@@ -132,12 +132,12 @@
 ## 💻 Architecture
 
 ### System
-![onlinememo_architecture drawio](https://github.com/OnlineMemo/.github/assets/56509933/a0ce0ff4-a47d-4e60-84ce-02f0d5845add)
+![onlinememo_architecture drawio](https://github.com/user-attachments/assets/fdc19a6b-5b9d-46ac-882b-9d8a78eac484)
 
 ```
 - Frontend Deployment : AWS Amplify
 - Backend Deployment : AWS Elastic Beanstalk
-- Database : AWS RDS
+- Database : AWS RDS, Upstash Redis
 - DNS : AWS Route53
 - Traffic : AWS Application Load Balancer, Auto Scaling (CPU 70% Out, 30% In)
 - Monitoring : AWS CloudWatch, Spring Logback, ExceptionHandler
