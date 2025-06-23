@@ -51,7 +51,7 @@
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
 
 - #### [BE] API 명세서
-  - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/4b60a166-ff46-4a0e-a14e-20bb2722273b" width="70%" /></details> 
+  - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/8683c9e2-2694-4482-ac6a-81e58eb3fa41" width="70%" /></details> 
 
 - #### [BE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend">Backend 대규모 리팩토링 - DB 재설계 · 쿼리 튜닝 · API 다중호출 개선</a>
