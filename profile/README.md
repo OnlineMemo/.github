@@ -151,7 +151,7 @@
 **테스터**|**트래픽**
 :-----:|:-----:
 <img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" width="400px">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/deb45a45-6828-4107-be56-d011fe89d558" width="90%">
-Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래픽 변화를 측정.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7% → 6% 상승함을 확인.<br>최대 500명의 경우 100%에 도달할 것을 예측하여, 인스턴스 Scale Up 조치.
+Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래픽 변화를 측정.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7% → 6% 상승함을 확인.<br>초기 운영에는 충분하나, 예기치 않은 트래픽 증가 시 Burst 기능을 안정적으로 운용하고자<br>인스턴스를 `t3.nano(CPU 크레딧 6)` → `t3.micro(CPU 크레딧 12)`로 Scale Up 조치.
 
 ### Monitoring
 <!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> -->
