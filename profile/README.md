@@ -22,8 +22,8 @@
    - &nbsp;[System](#system)
    - &nbsp;[Traffic](#traffic)
    - &nbsp;[Monitoring](#monitoring)
-8. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
-9. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
+7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
+8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
 </details>
 <br>
 
