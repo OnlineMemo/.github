@@ -19,8 +19,11 @@
 4. &nbsp;&nbsp;[💡 Tech Stack](#-tech-stack)
 5. &nbsp;&nbsp;[🗂️ Database](#%EF%B8%8F-database)
 6. &nbsp;&nbsp;[💻 Architecture](#-architecture)
-7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
-8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
+   - [System](#system)
+   - [Traffic](#traffic)
+   - [Monitoring](#monitoring)
+8. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
+9. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
 </details>
 <br>
 
