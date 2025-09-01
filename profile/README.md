@@ -181,12 +181,16 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 
 ```
 :
+├── client
+│   └── Ga4Client.java
 ├── config
+│   ├── FeignConfig.java
 │   ├── RedisConfig.java
 │   ├── SecurityConfig.java
 │   └── SwaggerConfig.java
 ├── controller
 │   ├── AuthController.java
+│   ├── BackOfficeController.java
 │   ├── FriendshipController.java
 │   ├── MemoController.java
 │   ├── TestController.java
@@ -195,8 +199,11 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── Friendship.java
 │   ├── Memo.java
 │   ├── User.java
+│   ├── backoffice
+│   │   └── Ga4Filtered.java
 │   ├── common
-│   │   └── BaseEntity.java
+│   │   ├── BaseCreatedEntity.java
+│   │   └── BaseModifiedEntity.java
 │   ├── enums
 │   │   ├── Authority.java
 │   │   └── FriendshipState.java
@@ -205,6 +212,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ├── dto
 │   ├── AuthDto.java
 │   ├── FriendshipDto.java
+│   ├── Ga4FilteredDto.java
 │   ├── MemoDto.java
 │   └── UserDto.java
 ├── jwt
@@ -218,6 +226,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ├── repository
 │   ├── FriendshipBatchRepository.java
 │   ├── FriendshipRepository.java
+│   ├── Ga4FilteredBatchRepository.java
+│   ├── Ga4FilteredRepository.java
 │   ├── MemoBatchRepository.java
 │   ├── MemoRepository.java
 │   ├── RedisRepository.java
@@ -241,6 +251,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ├── service
 │   ├── AuthService.java
 │   ├── FriendshipService.java
+│   ├── Ga4FilteredScheduler.java
+│   ├── Ga4FilteredService.java
 │   ├── MemoFacade.java
 │   ├── MemoService.java
 │   ├── UserMemoService.java
@@ -248,6 +260,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   └── impl
 │       ├── AuthServiceImpl.java
 │       ├── FriendshipServiceImpl.java
+│       ├── Ga4FilteredServiceImpl.java
 │       ├── MemoFacadeImpl.java
 │       ├── MemoServiceImpl.java
 │       ├── UserMemoServiceImpl.java
