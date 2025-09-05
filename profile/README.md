@@ -3,7 +3,7 @@
   <img src="https://github.com/user-attachments/assets/dd0f3082-61fb-44ed-8518-e6cef8754361" width="197" />
   <h3 align="center">온라인 메모장 📝</h3>
   <p align="center">
-    공동 작성이 가능한 메모장 서비스<br>
+    공동 작성이 가능한 경량화 메모장<br>
     <a href="https://github.com/OnlineMemo/backend"><strong>Backend Repo »</strong></a><br>
     <a href="https://github.com/OnlineMemo/frontend-web"><strong>Frontend Repo »</strong></a>
     <!-- <a href="https://github.com/orgs/OnlineMemo/repositories?q=sort%3Aname-asc"><strong>FullStack Repo »</strong></a> -->
