@@ -22,6 +22,7 @@
 5. &nbsp;&nbsp;[🗂️ Database](#%EF%B8%8F-database)
 6. &nbsp;&nbsp;[💻 Architecture](#-architecture)
    - &nbsp;[System](#system)
+   - &nbsp;[Back Office](#back-office)
    - &nbsp;[Monitoring](#monitoring)
 7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
 8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
@@ -53,7 +54,7 @@
 - <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ ing
   - Web&nbsp;:&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
-  - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명<br>&nbsp;<img src="https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b" width="75%" />
+  - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명<br>&nbsp;<img src="https://github.com/user-attachments/assets/52bf97bc-8fbf-4d35-b257-6d74a35485d4" width="73%" />
 
 - #### [BE] API 명세서
   - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/8683c9e2-2694-4482-ac6a-81e58eb3fa41" width="70%" /></details> 
@@ -129,11 +130,16 @@
 
 
 ## 🗂️ Database
+
+<details>
+  <summary>&nbsp;<strong>MySQL ERD</strong>&nbsp;:&nbsp;&nbsp;Open!</summary>
+<br>
 <!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c"> -->
 <!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d"> -->
 <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/dd03f5d3-1e92-4431-b274-972fbbcc1e8c">
+</details>
 
-<br><br>
+<br>
 
 
 
@@ -150,6 +156,17 @@
 - Traffic : AWS Application Load Balancer, Auto Scaling (CPU 70% Out, 30% In)
 - Monitoring : AWS CloudWatch, Spring Logback, ExceptionHandler
 - Version control : AWS S3, GitHub
+```
+
+### Back Office
+![backoffice_architecture drawio](https://github.com/user-attachments/assets/994e6a64-85c2-413e-b044-3ce614a04ded)
+![backoffice_statistics drawio](https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b)
+
+```
+GA4 (React : 실사용자 지표 수집)
+→ BigQuery (SQL : 수집 데이터 검증)
+→ Cloud Run (Serverless API : 데이터 필터링 및 제공)
+→ MongoDB (Spring : 필터링된 지표 저장 및 백오피스 운용)
 ```
 
 ### Monitoring
@@ -174,6 +191,55 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
   <summary>&nbsp;<strong>Backend</strong>&nbsp;:&nbsp;&nbsp;Open!</summary>
   <br>
 
+```
+:                                                 :
+├── client                                        ├── repository
+│   └── Ga4Client.java                            │   ├── UserRepository.java
+├── config                                        │   ├── MemoRepository.java
+│   ├── FeignConfig.java                          │   ├── MemoBatchRepository.java
+│   ├── SecurityConfig.java                       │   ├── UserMemoRepository.java
+│   ├── SwaggerConfig.java                        │   ├── UserMemoBatchRepository.java
+│   └── RedisConfig.java                          │   ├── FriendshipRepository.java
+├── controller                                    │   ├── FriendshipBatchRepository.java
+│   ├── AuthController.java                       │   ├── Ga4FilteredRepository.java
+│   ├── UserController.java                       │   ├── Ga4FilteredBatchRepository.java
+│   ├── MemoController.java                       │   └── RedisRepository.java
+│   ├── FriendshipController.java                 ├── response
+│   ├── BackOfficeController.java                 │   ├── ResponseCode.java
+│   └── TestController.java                       │   ├── ResponseData.java
+├── domain                                        │   ├── GlobalExceptionHandler.java
+│   ├── User.java                                 │   ├── exception
+│   ├── Memo.java                                 │   │   ├── CustomException.java
+│   ├── Friendship.java                           │   │   ├── Exception400.java
+│   ├── mapping                                   │   │   ├── Exception404.java
+│   │   └── UserMemo.java                         │   │   ├── Exception409.java
+│   ├── backoffice                                │   │   ├── Exception423.java
+│   │   └── Ga4Filtered.java                      │   │   └── Exception500.java
+│   ├── common                                    │   └── responseitem
+│   │   ├── BaseCreatedEntity.java                │       ├── MessageItem.java
+│   │   └── BaseModifiedEntity.java               │        └── StatusItem.java
+│   └── enums                                     ├── service
+│       ├── Authority.java                        │   ├── AuthService.java
+│       └── FriendshipState.java                  │   ├── UserService.java
+├── dto                                           │   ├── MemoService.java
+│   ├── AuthDto.java                              │   ├── MemoFacade.java
+│   ├── UserDto.java                              │   ├── UserMemoService.java
+│   ├── MemoDto.java                              │   ├── FriendshipService.java
+│   ├── FriendshipDto.java                        │   ├── Ga4FilteredService.java
+│   └── Ga4FilteredDto.java                       │   ├── Ga4FilteredScheduler.java
+├── jwt                                           │   └── impl
+│   ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
+│   ├── TokenProvider.java                        │       ├── UserServiceImpl.java
+│   ├── CustomUserDetailsService.java             │       ├── MemoServiceImpl.java
+│   └── handler                                   │       ├── MemoFacadeImpl.java
+│       ├── JwtExceptionFilter.java               │       ├── UserMemoServiceImpl.java
+:       ├── JwtAccessDeniedHandler.java           │       ├── FriendshipServiceImpl.java
+:       └── JwtAuthenticationEntryPoint.java      │       └── Ga4FilteredServiceImpl.java
+                                                  └── util
+                                                      ├── SecurityUtil.java
+                                                      └── TimeConverter.java
+```
+<!--
 ```
 :
 ├── client
@@ -264,6 +330,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     ├── SecurityUtil.java
     └── TimeConverter.java
 ```
+-->
 </details>
 
 <details>
