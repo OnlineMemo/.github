@@ -35,7 +35,7 @@
 
 ### 주제 선정
 기존의 메모장들에는 잡다한 많은 기능들이 탑재되어있어, 사용에 어려움을 느꼈습니다. <br>
-이에 본연의 기능을 살리고 남녀노소 누구나 쉽게 이용 가능한 메모장 서비스를 제공합니다.
+이에 본연의 기능을 살리고, 남녀노소 누구나 쉽게 이용 가능한 경량화 메모장을 제공합니다.
 
 ### 특징
 - 불필요한 기능을 제거하고, 간편하고 직관적인 디자인으로 주요 기능의 접근성을 높였습니다. <br>
@@ -54,6 +54,7 @@
 - <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ ing
   - Web&nbsp;:&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
+  - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현 🔗</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명<br>&nbsp;<img src="https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b" width="75%" />
 
 - #### [BE] API 명세서
   - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/8683c9e2-2694-4482-ac6a-81e58eb3fa41" width="70%" /></details> 
