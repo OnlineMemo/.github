@@ -22,7 +22,6 @@
 5. &nbsp;&nbsp;[🗂️ Database](#%EF%B8%8F-database)
 6. &nbsp;&nbsp;[💻 Architecture](#-architecture)
    - &nbsp;[System](#system)
-   - &nbsp;[Traffic](#traffic)
    - &nbsp;[Monitoring](#monitoring)
 7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
 8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
@@ -54,7 +53,7 @@
 - <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ ing
   - Web&nbsp;:&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
-  - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현 🔗</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명<br>&nbsp;<img src="https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b" width="75%" />
+  - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명<br>&nbsp;<img src="https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b" width="75%" />
 
 - #### [BE] API 명세서
   - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/8683c9e2-2694-4482-ac6a-81e58eb3fa41" width="70%" /></details> 
@@ -153,23 +152,17 @@
 - Version control : AWS S3, GitHub
 ```
 
-### Traffic
+### Monitoring
 
 **테스터**|**트래픽**
 :-----:|:-----:
 <img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" width="400px">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/deb45a45-6828-4107-be56-d011fe89d558" width="90%">
 Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래픽 변화를 측정.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7% → 6% 상승함을 확인.<br>초기 운영에는 충분하나, 예기치 않은 트래픽 증가 시 Burst 기능을 안정적으로 운용하고자<br>인스턴스를 `t3.nano(CPU 크레딧 6)` → `t3.micro(CPU 크레딧 12)`로 Scale Up 조치.
 
-### Monitoring
-<!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> -->
-<img width="1470" alt="AWS CloudWatch" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7">
-
-```
-1. Spring ExceptionHandler : Error Handling
-2. Spring Logback : Logging
-3-1. [Prod] AWS CloudWatch : Monitoring
-3-2. [Local] File Storage : Save to file
-```
+|**예외 로깅**|
+|-----|
+|<!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> --><img width="1470" alt="AWS CloudWatch" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7">|
+|1.&nbsp;&nbsp;Spring ExceptionHandler : Error Handling<br>2.&nbsp;&nbsp;Spring Logback : Logging<br>3-1.&nbsp;&nbsp;`Prod`&nbsp;&nbsp;AWS CloudWatch : Monitoring<br>3-2.&nbsp;&nbsp;`Local`&nbsp;&nbsp;File Storage : Save to file|
 
 <br>
 
