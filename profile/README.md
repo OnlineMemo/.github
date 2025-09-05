@@ -3,7 +3,7 @@
   <img src="https://github.com/user-attachments/assets/dd0f3082-61fb-44ed-8518-e6cef8754361" width="197" />
   <h3 align="center">온라인 메모장 📝</h3>
   <p align="center">
-    공동 편집이 가능한 경량화 메모장<br>
+    공동 편집 가능한 경량화 메모장<br>
     <a href="https://github.com/OnlineMemo/backend"><strong>Backend Repo »</strong></a><br>
     <a href="https://github.com/OnlineMemo/frontend-web"><strong>Frontend Repo »</strong></a>
     <!-- <a href="https://github.com/orgs/OnlineMemo/repositories?q=sort%3Aname-asc"><strong>FullStack Repo »</strong></a> -->
@@ -42,7 +42,7 @@
 또한 눈이 편안한 색감을 선정하여 심플하게 디자인하였습니다.
 - 개인정보 필요없이 생성할 id와 pw만 입력하여, 쉽고 빠르게 회원가입이 가능합니다. <br>
 이로써 회원가입의 거부감을 줄이고, 어느 기기에서든지 접속하여 계정별로 메모를 관리할 수 있습니다.
-- 여러 사람이 공동으로 메모를 작성 및 관리할 수 있는 '공동 메모' 기능을 추가하였습니다. <br>
+- 여러 사람이 공동으로 메모를 편집 및 관리할 수 있는 '공동 메모' 기능을 추가하였습니다. <br>
 대학생 팀플이나 회의 내용 작성으로도 적합합니다.
 <!-- - 광고 삽입은 접근성을 떨어뜨리기에, 수익창출 없이 무료로 이용 가능하도록 하였습니다. -->
 <br>
