@@ -166,7 +166,7 @@
 GA4 (React : 실사용자 지표 수집)
 → BigQuery (SQL : 수집 데이터 검증)
 → Cloud Run (Serverless API : 데이터 필터링 및 제공)
-→ MongoDB (Spring : 필터링된 지표 저장 및 백오피스 운용)
+→ MongoDB (Spring : 정제된 지표 저장 및 백오피스 운용)
 ```
 
 ### Monitoring
