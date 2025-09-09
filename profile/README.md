@@ -237,7 +237,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   │   └── Ga4Filtered.java                      │   │   └── Exception500.java
 │   ├── common                                    │   └── responseitem
 │   │   ├── BaseCreatedEntity.java                │       ├── MessageItem.java
-│   │   └── BaseModifiedEntity.java               │        └── StatusItem.java
+│   │   └── BaseModifiedEntity.java               │       └── StatusItem.java
 │   └── enums                                     ├── service
 │       ├── Authority.java                        │   ├── AuthService.java
 │       └── FriendshipState.java                  │   ├── UserService.java
@@ -247,14 +247,14 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── MemoDto.java                              │   ├── FriendshipService.java
 │   ├── FriendshipDto.java                        │   ├── Ga4FilteredService.java
 │   └── Ga4FilteredDto.java                       │   ├── Ga4FilteredScheduler.java
-├── jwt                                           │   └── impl
-│   ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
-│   ├── TokenProvider.java                        │       ├── UserServiceImpl.java
-│   ├── CustomUserDetailsService.java             │       ├── MemoServiceImpl.java
-│   └── handler                                   │       ├── MemoFacadeImpl.java
-│       ├── JwtExceptionFilter.java               │       ├── UserMemoServiceImpl.java
-:       ├── JwtAccessDeniedHandler.java           │       ├── FriendshipServiceImpl.java
-:       └── JwtAuthenticationEntryPoint.java      │       └── Ga4FilteredServiceImpl.java
+└── jwt                                           │   └── impl
+    ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
+    ├── TokenProvider.java                        │       ├── UserServiceImpl.java
+    ├── CustomUserDetailsService.java             │       ├── MemoServiceImpl.java
+    └── handler                                   │       ├── MemoFacadeImpl.java
+        ├── JwtExceptionFilter.java               │       ├── UserMemoServiceImpl.java
+        ├── JwtAccessDeniedHandler.java           │       ├── FriendshipServiceImpl.java
+        └── JwtAuthenticationEntryPoint.java      │       └── Ga4FilteredServiceImpl.java
                                                   └── util
                                                       ├── SecurityUtil.java
                                                       └── TimeConverter.java
