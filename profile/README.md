@@ -215,48 +215,49 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ```
 :                                                 :
 ├── client                                        ├── repository
-│   └── Ga4Client.java                            │   ├── UserRepository.java
-├── config                                        │   ├── MemoRepository.java
-│   ├── FeignConfig.java                          │   ├── MemoBatchRepository.java
-│   ├── SecurityConfig.java                       │   ├── UserMemoRepository.java
-│   ├── SwaggerConfig.java                        │   ├── UserMemoBatchRepository.java
-│   └── RedisConfig.java                          │   ├── FriendshipRepository.java
-├── controller                                    │   ├── FriendshipBatchRepository.java
-│   ├── AuthController.java                       │   ├── Ga4FilteredRepository.java
-│   ├── UserController.java                       │   ├── Ga4FilteredBatchRepository.java
-│   ├── MemoController.java                       │   └── RedisRepository.java
-│   ├── FriendshipController.java                 ├── response
-│   ├── BackOfficeController.java                 │   ├── ResponseCode.java
-│   └── TestController.java                       │   ├── ResponseData.java
-├── domain                                        │   ├── GlobalExceptionHandler.java
-│   ├── User.java                                 │   ├── exception
-│   ├── Memo.java                                 │   │   ├── CustomException.java
-│   ├── Friendship.java                           │   │   ├── Exception400.java
-│   ├── mapping                                   │   │   ├── Exception404.java
-│   │   └── UserMemo.java                         │   │   ├── Exception409.java
-│   ├── backoffice                                │   │   ├── Exception423.java
-│   │   └── Ga4Filtered.java                      │   │   └── Exception500.java
-│   ├── common                                    │   └── responseitem
-│   │   ├── BaseCreatedEntity.java                │       ├── MessageItem.java
-│   │   └── BaseModifiedEntity.java               │       └── StatusItem.java
-│   └── enums                                     ├── service
-│       ├── Authority.java                        │   ├── AuthService.java
-│       └── FriendshipState.java                  │   ├── UserService.java
-├── dto                                           │   ├── MemoService.java
-│   ├── AuthDto.java                              │   ├── MemoFacade.java
-│   ├── UserDto.java                              │   ├── UserMemoService.java
-│   ├── MemoDto.java                              │   ├── FriendshipService.java
-│   ├── FriendshipDto.java                        │   ├── Ga4FilteredService.java
-│   └── Ga4FilteredDto.java                       │   ├── Ga4FilteredScheduler.java
-└── jwt                                           │   └── impl
-    ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
-    ├── TokenProvider.java                        │       ├── UserServiceImpl.java
-    ├── CustomUserDetailsService.java             │       ├── MemoServiceImpl.java
-    └── handler                                   │       ├── MemoFacadeImpl.java
-        ├── JwtExceptionFilter.java               │       ├── UserMemoServiceImpl.java
-        ├── JwtAccessDeniedHandler.java           │       ├── FriendshipServiceImpl.java
-        └── JwtAuthenticationEntryPoint.java      │       └── Ga4FilteredServiceImpl.java
-                                                  └── util
+│   ├── Ga4Client.java                            │   ├── UserRepository.java
+│   └── OpenAIClient.java                         │   ├── MemoRepository.java
+├── config                                        │   ├── MemoBatchRepository.java
+│   ├── FeignConfig.java                          │   ├── UserMemoRepository.java
+│   ├── SecurityConfig.java                       │   ├── UserMemoBatchRepository.java
+│   ├── SwaggerConfig.java                        │   ├── FriendshipRepository.java
+│   ├── RedisConfig.java                          │   ├── FriendshipBatchRepository.java
+│   └── OpenAIConfig.java                         │   ├── Ga4FilteredRepository.java
+├── controller                                    │   ├── Ga4FilteredBatchRepository.java
+│   ├── AuthController.java                       │   └── RedisRepository.java
+│   ├── UserController.java                       ├── response
+│   ├── MemoController.java                       │   ├── ResponseCode.java
+│   ├── FriendshipController.java                 │   ├── ResponseData.java
+│   ├── BackOfficeController.java                 │   ├── GlobalExceptionHandler.java
+│   └── TestController.java                       │   ├── exception
+├── domain                                        │   │   ├── CustomException.java
+│   ├── User.java                                 │   │   ├── Exception400.java
+│   ├── Memo.java                                 │   │   ├── Exception404.java
+│   ├── Friendship.java                           │   │   ├── Exception409.java
+│   ├── mapping                                   │   │   ├── Exception423.java
+│   │   └── UserMemo.java                         │   │   ├── Exception429.java
+│   ├── backoffice                                │   │   └── Exception500.java
+│   │   └── Ga4Filtered.java                      │   └── responseitem
+│   ├── common                                    │       ├── MessageItem.java
+│   │   ├── BaseCreatedEntity.java                │       └── StatusItem.java
+│   │   └── BaseModifiedEntity.java               ├── service
+│   └── enums                                     │   ├── AuthService.java
+│       ├── Authority.java                        │   ├── UserService.java
+│       └── FriendshipState.java                  │   ├── MemoService.java
+├── dto                                           │   ├── MemoFacade.java
+│   ├── AuthDto.java                              │   ├── UserMemoService.java
+│   ├── UserDto.java                              │   ├── FriendshipService.java
+│   ├── MemoDto.java                              │   ├── Ga4FilteredService.java
+│   ├── FriendshipDto.java                        │   ├── Ga4FilteredScheduler.java
+│   └── Ga4FilteredDto.java                       │   └── impl
+└── jwt                                           │       ├── AuthServiceImpl.java
+    ├── JwtFilter.java                            │       ├── UserServiceImpl.java
+    ├── TokenProvider.java                        │       ├── MemoServiceImpl.java
+    ├── CustomUserDetailsService.java             │       ├── MemoFacadeImpl.java
+    └── handler                                   │       ├── UserMemoServiceImpl.java
+        ├── JwtExceptionFilter.java               │       ├── FriendshipServiceImpl.java
+        ├── JwtAccessDeniedHandler.java           │       └── Ga4FilteredServiceImpl.java
+        └── JwtAuthenticationEntryPoint.java      └── util
                                                       ├── SecurityUtil.java
                                                       └── TimeConverter.java
 ```
