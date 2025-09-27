@@ -392,6 +392,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │   │   ├── ConfirmModal.jsx
     │   │   ├── FriendGroupModal.jsx
     │   │   └── SendFriendshipModal.jsx
+    │   │   ├── NoticeModal.jsx
+    │   │   └── GlobalModal.jsx
     │   ├── Navigation
     │   │   ├── LoadingNav.jsx
     │   │   ├── NewMemoNav.jsx
