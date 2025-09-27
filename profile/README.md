@@ -25,7 +25,7 @@
    - &nbsp;[Back Office](#back-office)
    - &nbsp;[Monitoring](#monitoring)
 7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
-8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#-team-full-stack)
+8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#%E2%80%8D%E2%80%8D%E2%80%8D-team-full-stack)
 </details>
 <br>
 
