@@ -249,7 +249,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── AuthDto.java                              │   ├── UserMemoService.java
 │   ├── UserDto.java                              │   ├── FriendshipService.java
 │   ├── MemoDto.java                              │   ├── Ga4FilteredService.java
-│   ├── FriendshipDto.java                        │   ├── Ga4FilteredScheduler.java
+│   ├── FriendshipDto.java                        │   ├── BackOfficeScheduler.java
 │   └── Ga4FilteredDto.java                       │   └── impl
 └── jwt                                           │       ├── AuthServiceImpl.java
     ├── JwtFilter.java                            │       ├── UserServiceImpl.java
