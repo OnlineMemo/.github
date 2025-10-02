@@ -153,14 +153,6 @@
 
 ## 🗂️ Database
 
-<details>
-  <summary>&nbsp;<strong>MySQL</strong>&nbsp;:&nbsp;&nbsp;서비스 데이터 (영구)&nbsp;&nbsp;⇒&nbsp;&nbsp;사용자, 메모, 친구 관계 등</summary>
-<br>
-<!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c"> -->
-<!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d"> -->
-<img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/dd03f5d3-1e92-4431-b274-972fbbcc1e8c">
-</details>
-
 <details open>
   <summary>&nbsp;<strong>Redis</strong>&nbsp;:&nbsp;&nbsp;서비스 데이터 (임시)&nbsp;&nbsp;⇒&nbsp;&nbsp;편집권한 Lock, 일일 AI 호출 횟수 등</summary>
 <br>
@@ -171,6 +163,14 @@
 | 일일 AI 호출횟수  | {`사용자정보:openai_usage` : `호출횟수`}&nbsp;&nbsp;&#8594;<br>{`userId:1200:openai_usage` : `3`}    | 자정  | 개인 OpenAI 호출량 검사<br>(일일 최대 10회 제한)
 | JVM Heap 위험 쿨타임<br>(스케줄러 + Slack) | {`backoffice:heap_notification` : `true`}                                | 1시간 | - 5분마다 힙메모리 체크<br>- 70/80/90% Slack 알림<br>&nbsp;&nbsp;(1시간 내 중복알림 방지)
 
+</details>
+
+<details>
+  <summary>&nbsp;<strong>MySQL</strong>&nbsp;:&nbsp;&nbsp;서비스 데이터 (영구)&nbsp;&nbsp;⇒&nbsp;&nbsp;사용자, 메모, 친구 관계 등</summary>
+<br>
+<!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c"> -->
+<!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d"> -->
+<img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/dd03f5d3-1e92-4431-b274-972fbbcc1e8c">
 </details>
 
 <details>
