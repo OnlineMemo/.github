@@ -154,7 +154,7 @@
 ## 🗂️ Database
 
 <details open>
-  <summary>&nbsp;<strong>Redis</strong>&nbsp;:&nbsp;&nbsp;서비스 데이터 (임시)&nbsp;&nbsp;⇒&nbsp;&nbsp;편집권한 Lock, 일일 AI 호출 횟수 등</summary>
+  <summary>&nbsp;<strong>Redis</strong>&nbsp;:&nbsp;&nbsp;<strong>서비스 데이터 (임시)</strong>&nbsp;&nbsp;⇒&nbsp;&nbsp;편집권한 Lock, 일일 AI 호출 횟수 등</summary>
 <br>
   
 | 항목          | Key-Value                                                                      | TTL | 설명                                                                            |
@@ -166,7 +166,7 @@
 </details>
 
 <details>
-  <summary>&nbsp;<strong>MySQL</strong>&nbsp;:&nbsp;&nbsp;서비스 데이터 (영구)&nbsp;&nbsp;⇒&nbsp;&nbsp;사용자, 메모, 친구 관계 등</summary>
+  <summary>&nbsp;<strong>MySQL</strong>&nbsp;:&nbsp;&nbsp;<strong>서비스 데이터 (영구)</strong>&nbsp;&nbsp;⇒&nbsp;&nbsp;사용자, 메모, 친구 관계 등</summary>
 <br>
 <!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/OnlineMemo/.github/assets/56509933/6bf90043-9bb4-435d-9ac3-5c8e8123a34c"> -->
 <!-- <img width="1470" alt="mysql DB ERD" src="https://github.com/user-attachments/assets/48beb98f-f616-4950-b1c5-05d779a90e0d"> -->
@@ -174,7 +174,7 @@
 </details>
 
 <details>
-  <summary>&nbsp;<strong>MongoDB</strong>&nbsp;:&nbsp;&nbsp;백오피스 데이터&nbsp;&nbsp;⇒&nbsp;&nbsp;GA4 페이지뷰, 접속자 기기, 국가 등</summary>
+  <summary>&nbsp;<strong>MongoDB</strong>&nbsp;:&nbsp;&nbsp;<strong>백오피스 데이터</strong>&nbsp;&nbsp;⇒&nbsp;&nbsp;GA4 페이지뷰, 접속자 기기, 국가 등</summary>
 <br>
 
 | 구분        | 항목            | 컬럼명                | 설명                  |
