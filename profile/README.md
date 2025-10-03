@@ -174,7 +174,7 @@
 </details>
 
 <details>
-  <summary>&nbsp;<strong>MongoDB</strong>&nbsp;:&nbsp;&nbsp;<strong>백오피스 데이터</strong>&nbsp;&nbsp;⇒&nbsp;&nbsp;GA4 페이지뷰, 접속자 기기, 국가 등</summary>
+  <summary>&nbsp;<strong>MongoDB</strong>&nbsp;:&nbsp;&nbsp;<strong>트래픽 데이터</strong>&nbsp;&nbsp;⇒&nbsp;&nbsp;GA4 페이지뷰, 접속자 기기, 국가 등</summary>
 <br>
 
 | 구분        | 항목            | 컬럼명                | 설명                  |
