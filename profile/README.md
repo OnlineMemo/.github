@@ -110,7 +110,7 @@
 
 **로그인**|**메모 목록 조회**|**메모 내용 조회**|**메모 작성 (+ AI 제목)**
 :-----:|:-----:|:-----:|:-----:
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/1f5c053b-13e5-4da2-9a4f-3db57e983611">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/6e5a4727-56b1-473f-8451-fed8864ae91a">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/7eb239e1-b338-4141-a6e6-745140167b70">|<img src="https://github.com/user-attachments/assets/0fc2e249-1883-4d1e-af16-c08c5e75f6b4"><!-- <img src="https://github.com/user-attachments/assets/f8c20ae5-6f3a-4559-bbb0-cc8a37f5b58c"> <img src="https://github.com/OnlineMemo/.github/assets/56509933/9101fd58-c90a-48dd-af24-a3693aec1b7d"> -->
+<img src="https://github.com/OnlineMemo/.github/assets/56509933/1f5c053b-13e5-4da2-9a4f-3db57e983611">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/6e5a4727-56b1-473f-8451-fed8864ae91a">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/7eb239e1-b338-4141-a6e6-745140167b70">|<img src="https://github.com/user-attachments/assets/0fc2e249-1883-4d1e-af16-c08c5e75f6b4"><!-- <img src="https://github.com/OnlineMemo/.github/assets/56509933/9101fd58-c90a-48dd-af24-a3693aec1b7d"> <img src="https://github.com/user-attachments/assets/f8c20ae5-6f3a-4559-bbb0-cc8a37f5b58c"> -->
 
 **프로필 조회**|**친구 목록 조회**|**친구요청 수신 목록 조회**|**친구 공동메모 초대**
 :-----:|:-----:|:-----:|:-----:
@@ -233,10 +233,25 @@ GA4 (React : 실사용자 지표 수집)
 <img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/145aaa0c-ad71-4e16-bc80-f36a2e50b3d0" width="400px">|<img src="https://github.com/tkguswls1106/tkguswls1106/assets/56509933/deb45a45-6828-4107-be56-d011fe89d558" width="90%">
 Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래픽 변화를 측정.|테스터 30명의 동시접속 결과, CPU 사용률이 0.7% → 6% 상승함을 확인.<br>초기 운영에는 충분하나, 예기치 않은 트래픽 증가 시 Burst 기능을 안정적으로 운용하고자<br>인스턴스를 `t3.nano(CPU 크레딧 6)` → `t3.micro(CPU 크레딧 12)`로 Scale Up 조치.
 
-|**예외 로깅**|
-|-----|
-|<!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> --><img width="1470" alt="AWS CloudWatch" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7">|
-|1.&nbsp;&nbsp;Spring ExceptionHandler : Error Handling<br>2.&nbsp;&nbsp;Spring Logback : Logging<br>3.&nbsp;&nbsp;`Local`&nbsp;&nbsp;File Storage : Save to file<br>4-1.&nbsp;&nbsp;`Prod`&nbsp;&nbsp;AWS CloudWatch : Monitoring<br>4-2.&nbsp;&nbsp;`Prod`&nbsp;&nbsp;Slack Webhook : Notification|
+<table>
+  <tr>
+    <th><strong>예외 로깅</strong></th>
+    <th><strong>Slack 경보</strong></th>
+  </tr>
+  <tr>
+    <td><img width="1470" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7"><!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> --></td>
+    <td><img width="781" src="https://github.com/user-attachments/assets/77fbfd4d-ba70-443d-bab7-edae81ac0a2a"></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      1.&nbsp;&nbsp;Spring ExceptionHandler : Error Handling<br>
+      2.&nbsp;&nbsp;Spring Logback : Logging<br>
+      3.&nbsp;&nbsp;<code>Local</code>&nbsp;&nbsp;File Storage : Save to file<br>
+      4-1.&nbsp;&nbsp;<code>Prod</code>&nbsp;&nbsp;AWS CloudWatch : Monitoring<br>
+      4-2.&nbsp;&nbsp;<code>Prod</code>&nbsp;&nbsp;Slack Webhook : Notification
+    </td>
+  </tr>
+</table>
 
 <br>
 
