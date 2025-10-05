@@ -72,7 +72,7 @@
 
 ## 📄 Documents
 
-- <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ ing
+- <strong>운영</strong>&nbsp;:&nbsp;&nbsp;2023.09.03 ~ 2025 (ing)
   - Web&nbsp;:&nbsp;&nbsp;<a href="https://www.onlinememo.kr">www.OnlineMemo.kr</a>
   - App&nbsp;:&nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=com.shj.onlinememo">Google Play 스토어</a>
   - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명&nbsp;&nbsp;**|**&nbsp;&nbsp;現 1300여명, 240명<br>&nbsp;<img src="https://github.com/user-attachments/assets/52bf97bc-8fbf-4d35-b257-6d74a35485d4" width="73%" />
