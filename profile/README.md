@@ -110,7 +110,7 @@
 
 **로그인**|**메모 목록 조회**|**메모 내용 조회**|**메모 작성 (+ AI 제목)**
 :-----:|:-----:|:-----:|:-----:
-<img src="https://github.com/OnlineMemo/.github/assets/56509933/1f5c053b-13e5-4da2-9a4f-3db57e983611">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/6e5a4727-56b1-473f-8451-fed8864ae91a">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/7eb239e1-b338-4141-a6e6-745140167b70">|<img src="https://github.com/user-attachments/assets/f8c20ae5-6f3a-4559-bbb0-cc8a37f5b58c"><!-- <img src="https://github.com/OnlineMemo/.github/assets/56509933/9101fd58-c90a-48dd-af24-a3693aec1b7d"> -->
+<img src="https://github.com/OnlineMemo/.github/assets/56509933/1f5c053b-13e5-4da2-9a4f-3db57e983611">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/6e5a4727-56b1-473f-8451-fed8864ae91a">|<img src="https://github.com/OnlineMemo/.github/assets/56509933/7eb239e1-b338-4141-a6e6-745140167b70">|<img src="https://github.com/user-attachments/assets/0fc2e249-1883-4d1e-af16-c08c5e75f6b4"><!-- <img src="https://github.com/user-attachments/assets/f8c20ae5-6f3a-4559-bbb0-cc8a37f5b58c"> <img src="https://github.com/OnlineMemo/.github/assets/56509933/9101fd58-c90a-48dd-af24-a3693aec1b7d"> -->
 
 **프로필 조회**|**친구 목록 조회**|**친구요청 수신 목록 조회**|**친구 공동메모 초대**
 :-----:|:-----:|:-----:|:-----:
