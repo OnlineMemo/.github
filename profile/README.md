@@ -235,12 +235,12 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 
 <table>
   <tr>
-    <th><strong>예외 로깅</strong></th>
     <th><strong>Slack 경보</strong></th>
+    <th><strong>CloudWatch 로깅</strong></th>
   </tr>
   <tr>
-    <td><img width="1470" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7"><!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> --></td>
     <td><img width="781" src="https://github.com/user-attachments/assets/77fbfd4d-ba70-443d-bab7-edae81ac0a2a"></td>
+    <td><img width="1470" src="https://github.com/user-attachments/assets/22721d18-6d9f-4a96-a7e3-5ccd6ad99ef7"><!-- <img width="1470" alt="AWS CloudWatch" src="https://github.com/OnlineMemo/.github/assets/56509933/266c6619-4995-479a-9cc1-b73cc4bb7544"> --></td>
   </tr>
   <tr>
     <td colspan="2">
