@@ -78,7 +78,8 @@
   - Back Office&nbsp;:&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/9">[PR] Admin 백오피스 구현</a><br>&nbsp;⇒&nbsp;&nbsp;2025.08)&nbsp;&nbsp;가입자 수 1200여명, 실사용자 수 월간 210명&nbsp;&nbsp;**|**&nbsp;&nbsp;現 1300여명, 240명<br>&nbsp;<img src="https://github.com/user-attachments/assets/52bf97bc-8fbf-4d35-b257-6d74a35485d4" width="73%" />
 
 - #### [BE] API 명세서
-  - <details><summary>&nbsp;Swagger API 명세서</summary><br><img src="https://github.com/user-attachments/assets/8683c9e2-2694-4482-ac6a-81e58eb3fa41" width="70%" /></details> 
+  - Swagger API 명세서<br><img src="https://github.com/user-attachments/assets/54c9bfa6-7425-4a09-8a6a-7718cbb7bc5c" width="86%" />
+  <!-- - <details open><summary>&nbsp;Swagger API 명세서</summary><img src="https://github.com/user-attachments/assets/54c9bfa6-7425-4a09-8a6a-7718cbb7bc5c" width="86%" /></details> -->
 
 - #### [BE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend">Backend 대규모 리팩토링 - DB 재설계 · Query 튜닝 · API 다중호출 개선</a>
