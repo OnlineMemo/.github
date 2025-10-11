@@ -418,14 +418,18 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── manifest.json
 │   ├── memoicon128.png
 │   ├── memoicon192.png
-│   └── memoicon512.png
+│   ├── memoicon512.png
+│   └── global
+│       ├── globalStyle.css
+│       └── fontawesome.css
 └── src
     ├── assets
     │   ├── fonts
-    │   │   ├── BMJUA_ttf.ttf
-    │   │   ├── Kalam-Bold.ttf
-    │   │   ├── Kalam-Light.ttf
-    │   │   └── Kalam-Regular.ttf
+    │   │   ├── BMJUA.woff2
+    │   │   ├── LINESeedKR-Bd.woff2
+    │   │   ├── KOTRAHOPE_subset.woff2
+    │   │   ├── Kalam-Regular_subset.woff2
+    │   │   └── fontawesome-webfont.woff2
     │   ├── css
     │   │   ├── confirmAlert.css
     │   │   └── mobileToast.css
