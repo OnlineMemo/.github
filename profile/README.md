@@ -438,6 +438,11 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     ├── apis
     │   └── Api.jsx
     ├── components
+    │   ├── Core
+    │   │   ├── Header.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Toast.jsx
+    │   │   └── GA4Tracker.jsx
     │   ├── List
     │   │   ├── FriendList.jsx
     │   │   ├── InviteFriendList.jsx
@@ -454,8 +459,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │   ├── Navigation
     │   │   ├── LoadingNav.jsx
     │   │   ├── NewMemoNav.jsx
-    │   │   ├── NoLoginNav.jsx
     │   │   ├── ReadAndEditMemoNav.jsx
+    │   │   ├── NoLoginNav.jsx
     │   │   └── YesLoginNav.jsx
     │   ├── Styled
     │   │   ├── BasicWrapper.jsx
@@ -477,22 +482,22 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     ├── pages
     │   ├── BackOffice
     │   │   └── StatisticPage.jsx
-    │   ├── Etc
-    │   │   ├── DownloadPage.jsx
-    │   │   ├── InformationPage.jsx
-    │   │   └── NoticePage.jsx
-    │   ├── Friend
-    │   │   ├── FriendListPage.jsx
-    │   │   └── SenderListPage.jsx
+    │   ├── User
+    │   │   ├── LoginPage.jsx
+    │   │   ├── SignupPage.jsx
+    │   │   ├── ChangePwPage.jsx
+    │   │   └── ProfilePage.jsx
     │   ├── Memo
     │   │   ├── MemoListPage.jsx
     │   │   ├── NewMemoPage.jsx
     │   │   └── ReadAndEditMemoPage.jsx
-    │   └── User
-    │       ├── ChangePwPage.jsx
-    │       ├── LoginPage.jsx
-    │       ├── SignupPage.jsx
-    │       └── UserProfilePage.jsx
+    │   ├── Friend
+    │   │   ├── FriendListPage.jsx
+    │   │   └── SenderListPage.jsx
+    │   └── Etc
+    │       ├── DownloadPage.jsx
+    │       ├── NoticePage.jsx
+    │       └── InformationPage.jsx
     ├── hooks
     │   └── useDetectDropdown.jsx
     └── utils
