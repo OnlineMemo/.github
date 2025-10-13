@@ -425,15 +425,15 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │       └── fontawesome.css
 └── src
     ├── assets
+    │   ├── css
+    │   │   ├── confirmAlert.css
+    │   │   └── mobileToast.css
     │   ├── fonts
     │   │   ├── BMJUA.woff2
     │   │   ├── LINESeedKR-Bd.woff2
     │   │   ├── KOTRAHOPE_subset.woff2
     │   │   ├── Kalam-Regular_subset.woff2
     │   │   └── fontawesome-webfont.woff2
-    │   ├── css
-    │   │   ├── confirmAlert.css
-    │   │   └── mobileToast.css
     │   └── images
     │       └── user.png
     ├── apis
