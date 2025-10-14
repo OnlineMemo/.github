@@ -86,6 +86,7 @@
   - [블로그]&nbsp;&nbsp;<a href="https://velog.io/@tkguswls1106/JPA-Auditing-%EC%B6%94%EC%A0%81-%EB%B2%97%EC%96%B4%EB%82%98%EA%B8%B0-LastModifiedDate-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%B0%A9%EC%A7%80">Auditing 추적 벗어나기 (@LastModifiedDate 업데이트 방지)</a>
   - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/5">동시성 제어 - Redis Lettuce 분산 락 · MySQL 낙관적 락 · Transaction 분리</a>
   - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/11">OpenAI - 메모 제목 AI 자동 생성기능 구현</a>
+  - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/13">CI/CD 파이프라인 - Github Actions · AWS EB 배포 구축</a>
 
 - #### [FE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/frontend-web">Frontend 대규모 리팩토링</a>
