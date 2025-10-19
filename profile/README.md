@@ -213,7 +213,7 @@
 - DNS : AWS Route53
 - Traffic : AWS Application Load Balancer, Auto Scaling (CPU 70% Out, 30% In)
 - Monitoring : AWS CloudWatch, Slack, Spring Logback, ExceptionHandler
-- Version control : AWS S3, GitHub
+- Version control : AWS S3, Github
 ```
 
 ### Back Office (ETL)
