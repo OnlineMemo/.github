@@ -22,7 +22,7 @@
 5. &nbsp;&nbsp;[🗂️ Database](#%EF%B8%8F-database)
 6. &nbsp;&nbsp;[💻 Architecture](#-architecture)
    - &nbsp;[System](#system)
-   - &nbsp;[Back Office](#back-office)
+   - &nbsp;[Back Office (ETL)](#back-office-etl)
    - &nbsp;[Monitoring](#monitoring)
 7. &nbsp;&nbsp;[📂 Directory Structure](#-directory-structure)
 8. &nbsp;&nbsp;[👨‍👩‍👧‍👧 Team](#%E2%80%8D%E2%80%8D%E2%80%8D-team-full-stack)
@@ -137,14 +137,14 @@
 
 
 ## 💡 Tech Stack
-|Frontend|Backend|Back Office|Security|Other|
+|Frontend|Backend|Back Office (ETL)|Security|Other|
 |:------:|:------:|:------:|:------:|:------:|
 |<img src="https://img.shields.io/badge/React-61DBFB?style=flat-square&logo=React&logoColor=white"/></a><br><img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_ReactNative.svg" alt="[ React Native ]"/></a><br><img src="https://img.shields.io/badge/JavaScript-F7DF1F?style=flat-square&logo=JavaScript&logoColor=white"/></a>|<img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_SpringBoot.svg" alt="[ Spring Boot ]"/></a><br><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=coffeeScript&logoColor=white"/></a><br><img src="https://img.shields.io/badge/OpenAI-74AA9C?style=flat-square&logo=OpenAI&logoColor=white"/></a><br><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a><br><img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_Redis.svg" alt="[ Redis ]"/></a>|<img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white"/><br><img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white"/><br><img src="https://img.shields.io/badge/Cloud Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/><br><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>|<img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_SpringSecurity.svg" alt="[ Spring Security ]"/></a><br><img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_JSONWebToken.svg" alt="[ JSON Web Token ]"/></a>|<img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_AmazonAWS.svg" alt="[ Amazon AWS ]"/></a><br><img src="https://smartcart-s3-bucket.s3.ap-northeast-2.amazonaws.com/badge_GithubActions.svg" alt="[ Github Actions ]"/><br><img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/><br><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Swagger-85EA2E?style=flat-square&logo=Swagger&logoColor=white"/></a>
 
 ```
 - Frontend : React, React Native, JavaScript
 - Backend : Spring Boot, Java, Spring Security, JWT, OpenAI
-- Back Office : GA4, BigQuery, Cloud Run
+- Back Office (ETL) : GA4, BigQuery, Cloud Run
 - Database : MySQL, Redis, MongoDB
 - Deployment : Amazon AWS, Github Actions
 - Tool : Slack, Postman, Swagger
@@ -216,7 +216,7 @@
 - Version control : AWS S3, GitHub
 ```
 
-### Back Office
+### Back Office (ETL)
 ![backoffice_architecture drawio](https://github.com/user-attachments/assets/994e6a64-85c2-413e-b044-3ce614a04ded)
 ![backoffice_statistics drawio](https://github.com/user-attachments/assets/396aefe9-034c-4879-a1e9-c214c501994b)
 
