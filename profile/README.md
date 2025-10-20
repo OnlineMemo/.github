@@ -205,6 +205,7 @@
 
 ### System
 ![onlinememo_architecture drawio](https://github.com/user-attachments/assets/fdc19a6b-5b9d-46ac-882b-9d8a78eac484)
+![network_architecture drawio](https://github.com/user-attachments/assets/7e7d0616-50fb-4d26-a2ca-e097ca65bbed)
 
 ```
 - Frontend Deployment : AWS Amplify
