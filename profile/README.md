@@ -560,4 +560,4 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 |                                              [사현진](https://github.com/tkguswls1106)                                              |
 | :------------------------------------------------------------------------------------------------------------------------------: |
 | <img width = "300" src ="https://github.com/user-attachments/assets/cb71ee9c-c8e6-45ca-9fb8-4e9d96d0a5d5"> |
-|                                                   Frontend & Backend Developer                                                    |
+|                                                   Backend & Frontend Developer                                                    |
