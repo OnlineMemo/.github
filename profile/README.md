@@ -266,6 +266,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
   <br>
 
 ```
+< Backend >
+----------------------------------------------------------------------------------------------
 :                                                 :
 ├── client                                        ├── repository
 │   ├── Ga4Client.java                            │   ├── UserRepository.java
@@ -313,6 +315,23 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
         └── JwtAuthenticationEntryPoint.java      └── util
                                                       ├── SecurityUtil.java
                                                       └── TimeConverter.java
+
+
+
+< DevOps - backend >                              < DevOps - submodule >
+----------------------------------------------------------------------------------------------
+:                                                 :
+├── .github/workflows                             ├── .github/workflows
+│   └── deploy.yml                                │   └── deploy.env
+│── resources                                     └── resources
+│   └── application-local.properties                  └── application-prod.properties
+│── .ebextensions
+│   ├── 00-set-timezone.config
+│   ├── 01-set-swapmemory.config
+│   └── 02-set-heapdump.config
+├── .platform/hooks/predeploy
+│   └── kill_prev_spring.sh
+└── Procfile
 ```
 <!--
 ```
