@@ -324,15 +324,21 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 :                                                 :
 ├── .github/workflows                             ├── .github/workflows
 │   └── deploy.yml                                │   └── deploy.env
-│── resources                                     └── resources
+├── resources                                     └── resources
 │   └── application-local.properties                  └── application-prod.properties
-│── .ebextensions
+├── .ebextensions
 │   ├── 00-set-timezone.config
 │   ├── 01-set-swapmemory.config
-│   ├── 02-set-heapdump.config
-│   └── 99-extend-nginx.config
-├── .platform/hooks/predeploy
-│   └── kill_prev_spring.sh
+│   └── 02-set-heapdump.config
+├── .platform
+│   ├── hooks/predeploy
+│   │   ├── 00_kill_prev_spring.sh
+│   │   └── 99_cleanup_nginx.sh
+│   └── nginx/conf.d
+│       ├── http_bodysize.conf
+│       └── elasticbeanstalk
+│           ├── server_gzip.conf
+│           └── server_nolog.conf
 └── Procfile
 ```
 <!--
