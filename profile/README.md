@@ -329,7 +329,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │── .ebextensions
 │   ├── 00-set-timezone.config
 │   ├── 01-set-swapmemory.config
-│   └── 02-set-heapdump.config
+│   ├── 02-set-heapdump.config
+│   └── 99-extend-nginx.config
 ├── .platform/hooks/predeploy
 │   └── kill_prev_spring.sh
 └── Procfile
