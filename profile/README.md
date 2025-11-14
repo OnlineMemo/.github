@@ -339,7 +339,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │       ├── http_bodysize.conf
 │       └── elasticbeanstalk
 │           ├── server_gzip.conf
-│           └── server_nolog.conf
+│           ├── server_nolog.conf
+│           └── server_nocrawl.conf
 └── Procfile
 ```
 <!--
