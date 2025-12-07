@@ -294,7 +294,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── mapping                                   │   │   ├── Exception423.java
 │   │   └── UserMemo.java                         │   │   ├── Exception429.java
 │   ├── backoffice                                │   │   └── Exception500.java
-│   │   └── Ga4Filtered.java                      │   └── responseitem
+│   │   └── Ga4Filtered.java                      │   └── item
 │   ├── common                                    │       ├── MessageItem.java
 │   │   ├── BaseCreatedEntity.java                │       └── StatusItem.java
 │   │   └── BaseModifiedEntity.java               ├── service
@@ -410,7 +410,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   │   ├── Exception409.java
 │   │   ├── Exception423.java
 │   │   └── Exception500.java
-│   └── responseitem
+│   └── item
 │       ├── MessageItem.java
 │       └── StatusItem.java
 ├── service
