@@ -506,6 +506,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │       ├── DropdownRight.jsx
     │       ├── FriendOptionDropdownCenter.jsx
     │       ├── IsStarButton.jsx
+    │       ├── MemoListSkeleton.jsx
     │       ├── MemoOptionButton.jsx
     │       ├── MemoOptionDropdownRight.jsx
     │       ├── NewMemoOptionDropdownRight.jsx
