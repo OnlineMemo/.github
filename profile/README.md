@@ -289,27 +289,28 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   └── TestController.java                       │   ├── exception
 ├── domain                                        │   │   ├── CustomException.java
 │   ├── User.java                                 │   │   ├── Exception400.java
-│   ├── Memo.java                                 │   │   ├── Exception404.java
-│   ├── Friendship.java                           │   │   ├── Exception409.java
-│   ├── mapping                                   │   │   ├── Exception423.java
-│   │   └── UserMemo.java                         │   │   ├── Exception429.java
-│   ├── backoffice                                │   │   └── Exception500.java
-│   │   └── Ga4Filtered.java                      │   └── item
-│   ├── common                                    │       ├── MessageItem.java
-│   │   ├── BaseCreatedEntity.java                │       └── StatusItem.java
-│   │   └── BaseModifiedEntity.java               ├── service
-│   └── enums                                     │   ├── AuthService.java
-│       ├── Authority.java                        │   ├── UserService.java
-│       └── FriendshipState.java                  │   ├── MemoService.java
-├── dto                                           │   ├── MemoFacade.java
-│   ├── AuthDto.java                              │   ├── UserMemoService.java
-│   ├── UserDto.java                              │   ├── FriendshipService.java
-│   ├── MemoDto.java                              │   ├── Ga4FilteredService.java
-│   ├── FriendshipDto.java                        │   ├── BackOfficeScheduler.java
-│   └── Ga4FilteredDto.java                       │   └── impl
-└── jwt                                           │       ├── AuthServiceImpl.java
-    ├── JwtFilter.java                            │       ├── UserServiceImpl.java
-    ├── TokenProvider.java                        │       ├── MemoServiceImpl.java
+│   ├── Memo.java                                 │   │   ├── Exception403.java
+│   ├── Friendship.java                           │   │   ├── Exception404.java
+│   ├── mapping                                   │   │   ├── Exception409.java
+│   │   └── UserMemo.java                         │   │   ├── Exception423.java
+│   ├── backoffice                                │   │   ├── Exception429.java
+│   │   └── Ga4Filtered.java                      │   │   └── Exception500.java
+│   ├── common                                    │   └── item
+│   │   ├── BaseCreatedEntity.java                │       ├── MessageItem.java
+│   │   └── BaseModifiedEntity.java               │       └── StatusItem.java
+│   └── enums                                     ├── service
+│       ├── Authority.java                        │   ├── AuthService.java
+│       └── FriendshipState.java                  │   ├── UserService.java
+├── dto                                           │   ├── MemoService.java
+│   ├── AuthDto.java                              │   ├── MemoFacade.java
+│   ├── UserDto.java                              │   ├── UserMemoService.java
+│   ├── MemoDto.java                              │   ├── FriendshipService.java
+│   ├── FriendshipDto.java                        │   ├── Ga4FilteredService.java
+│   └── Ga4FilteredDto.java                       │   ├── BackOfficeScheduler.java
+└── jwt                                           │   └── impl
+    ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
+    ├── TokenProvider.java                        │       ├── UserServiceImpl.java
+    ├── BlockedUserProvider.java                  │       ├── MemoServiceImpl.java
     ├── CustomUserDetailsService.java             │       ├── MemoFacadeImpl.java
     └── handler                                   │       ├── UserMemoServiceImpl.java
         ├── JwtExceptionFilter.java               │       ├── FriendshipServiceImpl.java
