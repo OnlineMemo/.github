@@ -300,23 +300,23 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   │   └── BaseModifiedEntity.java               │       └── StatusItem.java
 │   └── enums                                     ├── service
 │       ├── Authority.java                        │   ├── AuthService.java
-│       └── FriendshipState.java                  │   ├── UserService.java
-├── dto                                           │   ├── MemoService.java
-│   ├── AuthDto.java                              │   ├── MemoFacade.java
-│   ├── UserDto.java                              │   ├── UserMemoService.java
-│   ├── MemoDto.java                              │   ├── FriendshipService.java
-│   ├── FriendshipDto.java                        │   ├── Ga4FilteredService.java
-│   └── Ga4FilteredDto.java                       │   ├── BackOfficeScheduler.java
-└── jwt                                           │   └── impl
-    ├── JwtFilter.java                            │       ├── AuthServiceImpl.java
-    ├── TokenProvider.java                        │       ├── UserServiceImpl.java
-    ├── BlockedUserProvider.java                  │       ├── MemoServiceImpl.java
-    ├── CustomUserDetailsService.java             │       ├── MemoFacadeImpl.java
-    └── handler                                   │       ├── UserMemoServiceImpl.java
-        ├── JwtExceptionFilter.java               │       ├── FriendshipServiceImpl.java
-        ├── JwtAccessDeniedHandler.java           │       └── Ga4FilteredServiceImpl.java
-        └── JwtAuthenticationEntryPoint.java      └── util
-                                                      ├── SecurityUtil.java
+│       ├── UserState.java                        │   ├── UserService.java
+│       └── FriendshipState.java                  │   ├── MemoService.java
+├── dto                                           │   ├── MemoFacade.java
+│   ├── AuthDto.java                              │   ├── UserMemoService.java
+│   ├── UserDto.java                              │   ├── FriendshipService.java
+│   ├── MemoDto.java                              │   ├── Ga4FilteredService.java
+│   ├── FriendshipDto.java                        │   ├── BackOfficeScheduler.java
+│   └── Ga4FilteredDto.java                       │   └── impl
+└── jwt                                           │       ├── AuthServiceImpl.java
+    ├── JwtFilter.java                            │       ├── UserServiceImpl.java
+    ├── TokenProvider.java                        │       ├── MemoServiceImpl.java
+    ├── BlockedUserProvider.java                  │       ├── MemoFacadeImpl.java
+    ├── CustomUserDetailsService.java             │       ├── UserMemoServiceImpl.java
+    └── handler                                   │       ├── FriendshipServiceImpl.java
+        ├── JwtExceptionFilter.java               │       └── Ga4FilteredServiceImpl.java
+        ├── JwtAccessDeniedHandler.java           └── util
+        └── JwtAuthenticationEntryPoint.java          ├── SecurityUtil.java
                                                       └── TimeConverter.java
 
 
