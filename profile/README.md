@@ -278,9 +278,10 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── FeignConfig.java                          │   ├── UserMemoRepository.java
 │   ├── SecurityConfig.java                       │   ├── UserMemoBatchRepository.java
 │   ├── SwaggerConfig.java                        │   ├── FriendshipRepository.java
-│   ├── RedisConfig.java                          │   ├── FriendshipBatchRepository.java
-│   └── OpenAIConfig.java                         │   ├── Ga4FilteredRepository.java
-├── controller                                    │   ├── Ga4FilteredBatchRepository.java
+│   ├── OpenAIConfig.java                         │   ├── FriendshipBatchRepository.java
+│   ├── RateLimitConfig.java                      │   ├── Ga4FilteredRepository.java
+│   └── RedisConfig.java                          │   ├── Ga4FilteredBatchRepository.java
+├── controller                                    │   ├── CaffeineRepository.java
 │   ├── AuthController.java                       │   └── RedisRepository.java
 │   ├── UserController.java                       ├── response
 │   ├── MemoController.java                       │   ├── ResponseCode.java
@@ -308,16 +309,19 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 │   ├── MemoDto.java                              │   ├── Ga4FilteredService.java
 │   ├── FriendshipDto.java                        │   ├── BackOfficeScheduler.java
 │   └── Ga4FilteredDto.java                       │   └── impl
-└── jwt                                           │       ├── AuthServiceImpl.java
-    ├── JwtFilter.java                            │       ├── UserServiceImpl.java
-    ├── TokenProvider.java                        │       ├── MemoServiceImpl.java
-    ├── BlockedUserProvider.java                  │       ├── MemoFacadeImpl.java
-    ├── CustomUserDetailsService.java             │       ├── UserMemoServiceImpl.java
-    └── handler                                   │       ├── FriendshipServiceImpl.java
-        ├── JwtExceptionFilter.java               │       └── Ga4FilteredServiceImpl.java
-        ├── JwtAccessDeniedHandler.java           └── util
-        └── JwtAuthenticationEntryPoint.java          ├── SecurityUtil.java
-                                                      └── TimeConverter.java
+├── jwt                                           │       ├── AuthServiceImpl.java
+│   ├── JwtFilter.java                            │       ├── UserServiceImpl.java
+│   ├── TokenProvider.java                        │       ├── MemoServiceImpl.java
+│   ├── CustomUserDetailsService.java             │       ├── MemoFacadeImpl.java
+│   └── handler                                   │       ├── UserMemoServiceImpl.java
+│       ├── JwtExceptionFilter.java               │       ├── FriendshipServiceImpl.java
+│       ├── JwtAccessDeniedHandler.java           │       └── Ga4FilteredServiceImpl.java
+│       └── JwtAuthenticationEntryPoint.java      └── util
+└── ratelimit                                         ├── SecurityUtil.java
+    ├── RateLimitFilter.java                          └── TimeConverter.java
+    ├── RateLimitProvider.java
+    └── BlockedUserProvider.java
+
 
 
 ----------------------------------------------------------------------------------------------
