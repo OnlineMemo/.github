@@ -515,6 +515,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │       ├── MemoOptionButton.jsx
     │       ├── MemoOptionDropdownRight.jsx
     │       ├── NewMemoOptionDropdownRight.jsx
+    │       ├── ReadMemoSkeleton.jsx
     │       ├── SearchMemo.jsx
     │       └── SortMemo.jsx
     ├── pages
@@ -534,8 +535,9 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │   │   └── SenderListPage.jsx
     │   └── Etc
     │       ├── DownloadPage.jsx
+    │       ├── InformationPage.jsx
     │       ├── NoticePage.jsx
-    │       └── InformationPage.jsx
+    │       └── NotFoundPage.jsx
     ├── hooks
     │   └── useDetectDropdown.jsx
     └── utils
