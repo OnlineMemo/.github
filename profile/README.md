@@ -87,6 +87,7 @@
   - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/5">동시성 제어 - Redis Lettuce 분산 락 · MySQL 낙관적 락 · Transaction 분리</a>
   - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/11">OpenAI - 메모 제목 AI 자동 생성기능 구현</a>
   - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/13">CI/CD 파이프라인 - Github Actions · AWS EB 배포 구축</a>
+  - [PR]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/backend/pull/15">DDoS 트래픽 제어 - Bucket4j 계정별 RateLimit · 24시간 차단 · 영구정지</a>
 
 - #### [FE] 성능 개선기 📝
   - [깃허브]&nbsp;&nbsp;<a href="https://github.com/OnlineMemo/frontend-web">Frontend 대규모 리팩토링</a>
