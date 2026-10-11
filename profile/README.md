@@ -163,7 +163,8 @@
 | 항목          | Key-Value                                                                      | TTL | 설명                                                                            |
 | ------------ | ------------------------------------------------------------------------------ | --- | ------------------------------------------------------------------------------ |
 | 편집권한 Lock  | {`메모정보:lock` : `사용자정보`}<br>{`memoId:1200:lock` : `userId:10,userName:현진`} | 10분 | - Redis Lettuce 분산 락<br>- 편집자 외 수정접근 제한<br>&nbsp;&nbsp;(편집 중인 상대방 표시)
-| 일일 AI 호출횟수  | {`사용자정보:openai_usage` : `호출횟수`}<br>{`userId:1200:openai_usage` : `3`}    | 자정  | 개인 OpenAI 호출량 검사<br>(일일 최대 10회 제한)
+| 일일 AI 호출횟수  | {`사용자정보:openai_usage` : `호출횟수`}<br>{`userId:1200:openai_usage` : `3`}    | 자정 | 개인 OpenAI 호출량 검사<br>(일일 최대 10회 제한)
+| RateLimit 차단 누적횟수 | {`사용자정보:ratelimit_block_count` : `차단횟수`}<br>{`userId:1200:ratelimit_block_count` : `2`} | 없음 | 계정 24시간 차단횟수 기록<br>(3회 누적 시 영구정지)
 | JVM Heap 위험 쿨타임<br>(스케줄러 + Slack) | {`backoffice:경보종류` : `true`}<br>{`backoffice:heap_notification` : `true`} | 1시간 | - 5분마다 Heap 메모리 체크<br>- 70/80/90% Slack 알림<br>&nbsp;&nbsp;(1시간 내 중복알림 방지)
 | EC2 RAM 위험 쿨타임<br>(스케줄러 + Slack) | {`backoffice:경보종류` : `true`}<br>{`backoffice:ram_notification` : `true`} | 1시간 | - 5분마다 RAM 메모리 체크<br>- 90/95% Slack 알림<br>&nbsp;&nbsp;(1시간 내 중복알림 방지)
 
