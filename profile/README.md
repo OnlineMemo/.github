@@ -518,6 +518,7 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │       ├── MemoOptionDropdownRight.jsx
     │       ├── NewMemoOptionDropdownRight.jsx
     │       ├── ReadMemoSkeleton.jsx
+    │       ├── PendingOverlay.jsx
     │       ├── SearchMemo.jsx
     │       └── SortMemo.jsx
     ├── pages
@@ -541,7 +542,8 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
     │       ├── NoticePage.jsx
     │       └── NotFoundPage.jsx
     ├── hooks
-    │   └── useDetectDropdown.jsx
+    │   ├── useDetectDropdown.jsx
+    │   └── usePendingRequest.jsx
     └── utils
         ├── lazyUtil.js
         ├── AlertUtil.js
