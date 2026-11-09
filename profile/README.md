@@ -452,99 +452,103 @@ Web & App 테스터를 모집해,<br>특정 시간대 10분 동안의<br>트래�
 ```
 :
 ├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── linkthumbnail.png
-│   ├── manifest.json
-│   ├── memoicon128.png
-│   ├── memoicon192.png
-│   ├── memoicon512.png
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── linkthumbnail.png
+│   ├── manifest.json
+│   ├── memoicon128.png
+│   ├── memoicon192.png
+│   ├── memoicon512.png
 │   └── global
 │       ├── globalStyle.css
 │       └── fontawesome.css
 └── src
     ├── assets
-    │   ├── css
-    │   │   ├── confirmAlert.css
-    │   │   └── mobileToast.css
-    │   ├── fonts
-    │   │   ├── BMJUA.woff2
-    │   │   ├── LINESeedKR-Bd.woff2
-    │   │   ├── KOTRAHOPE_subset.woff2
-    │   │   ├── Kalam-Regular_subset.woff2
-    │   │   └── fontawesome-webfont.woff2
-    │   └── images
-    │       └── user.png
+    │   ├── css
+    │   │   ├── confirmAlert.css
+    │   │   └── mobileToast.css
+    │   ├── fonts
+    │   │   ├── BMJUA.woff2
+    │   │   ├── LINESeedKR-Bd.woff2
+    │   │   ├── KOTRAHOPE_subset.woff2
+    │   │   ├── Kalam-Regular_subset.woff2
+    │   │   └── fontawesome-webfont.woff2
+    │   └── images
+    │       └── user.png
     ├── apis
-    │   └── Api.jsx
+    │   └── Api.jsx
     ├── components
-    │   ├── Core
-    │   │   ├── Header.jsx
-    │   │   ├── Footer.jsx
-    │   │   ├── Toast.jsx
-    │   │   └── GA4Tracker.jsx
-    │   ├── List
-    │   │   ├── FriendList.jsx
-    │   │   ├── InviteFriendList.jsx
-    │   │   ├── MemoList.jsx
-    │   │   ├── MemoListItem.jsx
-    │   │   ├── SelectFriendList.jsx
-    │   │   └── SenderList.jsx
-    │   ├── Modal
-    │   │   ├── ConfirmModal.jsx
-    │   │   ├── FriendGroupModal.jsx
-    │   │   ├── GlobalModal.jsx
-    │   │   ├── NoticeModal.jsx
-    │   │   └── SendFriendshipModal.jsx
-    │   ├── Navigation
-    │   │   ├── LoadingNav.jsx
-    │   │   ├── NewMemoNav.jsx
-    │   │   ├── ReadAndEditMemoNav.jsx
-    │   │   ├── NoLoginNav.jsx
-    │   │   └── YesLoginNav.jsx
-    │   ├── Styled
-    │   │   ├── BasicWrapper.jsx
-    │   │   ├── HelloWrapper.jsx
-    │   │   ├── NavWrapper.jsx
-    │   │   └── OneMemoWrapper.jsx
-    │   └── UI
-    │       ├── Checkbox.jsx
-    │       ├── DropdownCenter.jsx
-    │       ├── DropdownLeft.jsx
-    │       ├── DropdownRight.jsx
-    │       ├── FriendOptionDropdownCenter.jsx
-    │       ├── IsStarButton.jsx
-    │       ├── MemoListSkeleton.jsx
-    │       ├── MemoOptionButton.jsx
-    │       ├── MemoOptionDropdownRight.jsx
-    │       ├── NewMemoOptionDropdownRight.jsx
-    │       ├── ReadMemoSkeleton.jsx
-    │       ├── PendingOverlay.jsx
-    │       ├── SearchMemo.jsx
-    │       └── SortMemo.jsx
+    │   ├── Core
+    │   │   ├── Header.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Toast.jsx
+    │   │   └── GA4Tracker.jsx
+    │   ├── List
+    │   │   ├── FriendList.jsx
+    │   │   ├── InviteFriendList.jsx
+    │   │   ├── MemoList.jsx
+    │   │   ├── MemoListItem.jsx
+    │   │   ├── SelectFriendList.jsx
+    │   │   ├── SenderList.jsx
+    │   │   └── TrashMemoList.jsx
+    │   ├── Modal
+    │   │   ├── ConfirmModal.jsx
+    │   │   ├── FriendGroupModal.jsx
+    │   │   ├── GlobalModal.jsx
+    │   │   ├── NoticeModal.jsx
+    │   │   └── SendFriendshipModal.jsx
+    │   ├── Navigation
+    │   │   ├── LoadingNav.jsx
+    │   │   ├── NewMemoNav.jsx
+    │   │   ├── ReadAndEditMemoNav.jsx
+    │   │   ├── TrashMemoNav.jsx
+    │   │   ├── NoLoginNav.jsx
+    │   │   └── YesLoginNav.jsx
+    │   ├── Styled
+    │   │   ├── BasicWrapper.jsx
+    │   │   ├── HelloWrapper.jsx
+    │   │   ├── NavWrapper.jsx
+    │   │   └── OneMemoWrapper.jsx
+    │   └── UI
+    │       ├── Checkbox.jsx
+    │       ├── DropdownCenter.jsx
+    │       ├── DropdownLeft.jsx
+    │       ├── DropdownRight.jsx
+    │       ├── FriendOptionDropdownCenter.jsx
+    │       ├── IsStarButton.jsx
+    │       ├── MemoListSkeleton.jsx
+    │       ├── MemoOptionButton.jsx
+    │       ├── MemoOptionDropdownRight.jsx
+    │       ├── NewMemoOptionDropdownRight.jsx
+    │       ├── ReadMemoSkeleton.jsx
+    │       ├── PendingOverlay.jsx
+    │       ├── SearchMemo.jsx
+    │       └── SortMemo.jsx
     ├── pages
-    │   ├── BackOffice
-    │   │   └── StatisticPage.jsx
-    │   ├── User
-    │   │   ├── LoginPage.jsx
-    │   │   ├── SignupPage.jsx
-    │   │   ├── ChangePwPage.jsx
-    │   │   └── ProfilePage.jsx
-    │   ├── Memo
-    │   │   ├── MemoListPage.jsx
-    │   │   ├── NewMemoPage.jsx
-    │   │   └── ReadAndEditMemoPage.jsx
-    │   ├── Friend
-    │   │   ├── FriendListPage.jsx
-    │   │   └── SenderListPage.jsx
-    │   └── Etc
-    │       ├── DownloadPage.jsx
-    │       ├── InformationPage.jsx
-    │       ├── NoticePage.jsx
-    │       └── NotFoundPage.jsx
+    │   ├── BackOffice
+    │   │   └── StatisticPage.jsx
+    │   ├── User
+    │   │   ├── LoginPage.jsx
+    │   │   ├── SignupPage.jsx
+    │   │   ├── ChangePwPage.jsx
+    │   │   └── ProfilePage.jsx
+    │   ├── Memo
+    │   │   ├── MemoListPage.jsx
+    │   │   ├── NewMemoPage.jsx
+    │   │   ├── ReadAndEditMemoPage.jsx
+    │   │   ├── TrashMemoListPage.jsx
+    │   │   └── TrashMemoPage.jsx
+    │   ├── Friend
+    │   │   ├── FriendListPage.jsx
+    │   │   └── SenderListPage.jsx
+    │   └── Etc
+    │       ├── DownloadPage.jsx
+    │       ├── InformationPage.jsx
+    │       ├── NoticePage.jsx
+    │       └── NotFoundPage.jsx
     ├── hooks
-    │   ├── useDetectDropdown.jsx
-    │   └── usePendingRequest.jsx
+    │   ├── useDetectDropdown.jsx
+    │   └── usePendingRequest.jsx
     └── utils
         ├── lazyUtil.js
         ├── AlertUtil.js
